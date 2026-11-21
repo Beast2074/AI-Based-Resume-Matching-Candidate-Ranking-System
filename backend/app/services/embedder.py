@@ -1,14 +1,24 @@
 import os
+import traceback
 from pathlib import Path
 from typing import List
 import numpy as np
 
+from app.services.logger import record_log
+
 _embedder_instance = None
 
 def get_models_dir() -> Path:
-    local_dir = Path(__file__).resolve().parent.parent.parent / "models"
-    if local_dir.exists() and any(local_dir.iterdir()):
-        return local_dir
+    candidates = [
+        Path(__file__).resolve().parent.parent.parent / "models",
+        Path.cwd() / "models",
+        Path.cwd() / "backend" / "models",
+        Path("/var/task/models"),
+        Path("/var/task/backend/models"),
+    ]
+    for d in candidates:
+        if d.exists() and any(d.rglob("*.onnx")):
+            return d
     # Fallback to /tmp for serverless runtime (e.g. Vercel)
     tmp_dir = Path("/tmp/fastembed_models")
     tmp_dir.mkdir(parents=True, exist_ok=True)
@@ -54,7 +64,9 @@ class Embedder:
                 cache_dir=cache_dir
             )
             self._fallback = None
-        except Exception:
+            record_log("EMBEDDER", "INFO", f"Loaded ONNX embedding model from {cache_dir}")
+        except Exception as exc:
+            record_log("EMBEDDER", "WARNING", f"Failed to initialize TextEmbedding ({exc}), using deterministic fallback.")
             self.model = None
             self._fallback = FallbackEmbedder()
 

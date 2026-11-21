@@ -114,11 +114,17 @@ app.include_router(admin.router)
 
 def check_model_loaded() -> bool:
     """Checks whether the local ONNX embedding model files are present."""
-    models_dir = Path(__file__).resolve().parent.parent / "models"
-    if not models_dir.exists():
-        return False
-    onnx_files = list(models_dir.rglob("*.onnx"))
-    return len(onnx_files) > 0
+    candidates = [
+        Path(__file__).resolve().parent.parent / "models",
+        Path.cwd() / "models",
+        Path.cwd() / "backend" / "models",
+        Path("/var/task/models"),
+        Path("/var/task/backend/models"),
+    ]
+    for d in candidates:
+        if d.exists() and any(d.rglob("*.onnx")):
+            return True
+    return False
 
 
 @app.get("/api/health")

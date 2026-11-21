@@ -59,6 +59,14 @@ node_modules/
 frontend/node_modules/
 frontend/dist/
 
+# Vercel Deployment & Local CLI Cache
+.vercel/
+frontend/.vercel/
+backend/.vercel/
+
+# Scratch & Temporary Scripts
+scratch/
+
 # Local Environment Variables & Secrets
 .env
 .env.local

@@ -150,10 +150,15 @@ $$\text{Final Score} = \underbrace{\text{Skills Match} \times 40\%}_{\text{Must-
 ### 7. Anti-Bias Blind Screening Mode
 - Recruiter can toggle **Anonymize Mode** to immediately mask names (e.g., `Candidate #1 (Rank 1)`), emails (`candidate-1@confidential.internal`), and phone numbers for bias-free, EEOC-compliant evaluations.
 
-### 8. Real-Time Recruiter Filter (Min Score Slider)
+### 8. Real-Time Recruiter Filter (Min Score Slider) & Instant Filtering
 - Interactive threshold slider (`0%` to `90%`) allows recruiters to filter out low-match candidates dynamically in real-time.
+- Executed entirely client-side with zero network roundtrip latency and session-state persistence (`sessionStorage`), preventing reload churn or cold-start timeouts.
 
-### 9. Live Admin Diagnostic Console & Observability (`>_ Logs`)
+### 9. High-Confidence Partial Skill Gating & Transparent Missing Skills
+- Calibrated cosine threshold (`min_partial_skill_sim: 0.75`) prevents loosely related skills from being incorrectly credited as partial matches.
+- Missing skills are accurately surfaced in the candidate audit drawer with clear distinction between Must-Have and Nice-To-Have gaps.
+
+### 10. Live Admin Diagnostic Console & Observability (`>_ Logs`)
 - Protected by admin password authentication (default: `12345`).
 - Features a thread-safe circular telemetry buffer tracking subsystems: `PARSER`, `JD_EXTRACTOR`, `SKILLS`, `EMBEDDER`, `SCORING`, `API`, `SECURITY`.
 - **Zero-Data-Leak Privacy**: Automatic regex PII redaction masks candidate emails, phone numbers, system paths (`[REPO]`), and passwords.
@@ -170,8 +175,8 @@ $$\text{Final Score} = \underbrace{\text{Skills Match} \times 40\%}_{\text{Must-
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/resume-matching-system.git
-cd resume-matching-system
+git clone https://github.com/Beast2074/AI-Based-Resume-Matching-Candidate-Ranking-System.git
+cd AI-Based-Resume-Matching-Candidate-Ranking-System
 ```
 
 ### 2. Backend Setup
@@ -223,7 +228,7 @@ cd frontend && npm run build
 ## 📂 Project Structure & File Guide
 
 ```
-resume-matching-system/
+AI-Based-Resume-Matching-Candidate-Ranking-System/
 ├── backend/
 │   ├── app/
 │   │   ├── config/
@@ -246,6 +251,7 @@ resume-matching-system/
 │   │   ├── models.py                   # Relational ORM models (Job, Candidate, Score, Explanation)
 │   │   ├── schemas.py                  # Pydantic v2 validation contracts
 │   │   └── main.py                     # FastAPI entrypoint, lifespan startup, CORS & error handling
+│   ├── models/                         # Baked quantized ONNX transformer weights (bge-small-en-v1.5)
 │   ├── tests/                          # 27 automated unit and integration tests
 │   └── pyproject.toml                  # Python package configuration
 ├── frontend/
@@ -337,8 +343,8 @@ git commit -m "feat: AI-based resume matching and candidate ranking system v1.0"
 # 4. Set main branch
 git branch -M main
 
-# 5. Link your GitHub remote repository (replace with your repo URL)
-git remote add origin https://github.com/<your-github-username>/<your-repo-name>.git
+# 5. Link your GitHub remote repository
+git remote add origin https://github.com/Beast2074/AI-Based-Resume-Matching-Candidate-Ranking-System.git
 
 # 6. Push to GitHub
 git push -u origin main

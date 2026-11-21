@@ -18,7 +18,9 @@
   "thresholds": {
     "tau_low": 0.55,
     "tau_high": 0.8,
-    "relevant_experience_cosine": 0.6
+    "relevant_experience_cosine": 0.6,
+    "min_partial_skill_sim": 0.75,
+    "min_partial_skill_credit": 0.20
   },
   "experience_defaults": {
     "no_requirement_min_1_yr": 1.0,

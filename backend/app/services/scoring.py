@@ -158,9 +158,14 @@ def score_candidate(
                         closest_skill = cand_skill_names[best_idx]
 
             partial_factor = skill_credits.get("partial_semantic_factor", 0.5)
+            min_partial_sim = thresholds.get("min_partial_skill_sim", 0.75)
+            min_partial_credit = thresholds.get("min_partial_skill_credit", 0.20)
             credit = ramp(best_sim, tau_low, tau_high) * partial_factor
 
-            if credit > 0.0:
+            # A partial match is only valid if similarity is high-confidence (>= 0.75).
+            # Weak cross-tech overlaps (e.g. SQL vs Python at 0.74 or GitHub vs PyTorch at 0.57)
+            # must be recognized as missing skills, not partial coverage.
+            if credit >= min_partial_credit and best_sim >= min_partial_sim:
                 partial_skills.append({
                     "required": req_name,
                     "closest": closest_skill,

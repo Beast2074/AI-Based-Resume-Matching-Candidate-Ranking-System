@@ -219,13 +219,19 @@ export async function getRanking(
     anonymize: anonymize.toString(),
   });
   const res = await fetch(`${API_BASE_URL}/api/jobs/${jobId}/ranking?${params.toString()}`);
-  if (!res.ok) throw new Error("Failed to fetch ranking");
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({}));
+    throw new Error(err.detail || "Failed to fetch ranking");
+  }
   return RankingResponseSchema.parse(await res.json());
 }
 
 export async function getCandidate(candidateId: string, anonymize: boolean = false): Promise<CandidateDetail> {
   const res = await fetch(`${API_BASE_URL}/api/candidates/${candidateId}?anonymize=${anonymize}`);
-  if (!res.ok) throw new Error("Candidate not found");
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({}));
+    throw new Error(err.detail || "Candidate not found");
+  }
   return CandidateDetailSchema.parse(await res.json());
 }
 

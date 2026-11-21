@@ -35,9 +35,21 @@ export default function Ranking() {
     setLoading(true);
     setError(null);
     try {
-      const data = await getRanking(jobId, minScore, anonymize);
+      const data = await getRanking(jobId, 0, anonymize);
       setRanking(data);
+      try {
+        sessionStorage.setItem(`ranking_${jobId}`, JSON.stringify(data));
+      } catch {}
     } catch (err: any) {
+      // Try restoring from session storage if server instance cycled
+      const cached = sessionStorage.getItem(`ranking_${jobId}`);
+      if (cached) {
+        try {
+          setRanking(JSON.parse(cached));
+          setError(null);
+          return;
+        } catch {}
+      }
       setError(err?.message || "Failed to load rankings");
     } finally {
       setLoading(false);
@@ -46,9 +58,11 @@ export default function Ranking() {
 
   useEffect(() => {
     loadRanking();
-  }, [jobId, minScore, anonymize]);
+  }, [jobId, anonymize]);
 
+  // Client-side filtering ensures instant, 60fps response without triggering network errors
   const filteredCandidates = (ranking?.candidates || []).filter((c) => {
+    if (c.total < minScore) return false;
     if (!searchTerm) return true;
     const term = searchTerm.toLowerCase();
     return (
@@ -206,14 +220,28 @@ export default function Ranking() {
           <p className="text-sm text-textMuted">Loading candidate rankings...</p>
         </div>
       ) : error ? (
-        <div className="glass-card p-8 text-center space-y-3 text-scoreRed">
-          <p className="text-sm font-semibold">{error}</p>
-          <button
-            onClick={loadRanking}
-            className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs text-textPrimary hover:bg-white/10 transition"
-          >
-            Retry
-          </button>
+        <div className="glass-card p-8 text-center space-y-4">
+          <p className="text-sm font-semibold text-scoreRed">{error}</p>
+          {error.toLowerCase().includes("job not found") ? (
+            <div className="space-y-3">
+              <p className="text-xs text-textMuted max-w-md mx-auto">
+                This job was analyzed in an earlier server session that has expired. Create a new job or re-upload resumes to start a fresh evaluation.
+              </p>
+              <button
+                onClick={() => navigate("/")}
+                className="px-5 py-2.5 rounded-xl bg-accentCyan text-black font-semibold text-xs hover:opacity-90 transition shadow-lg shadow-accentCyan/10"
+              >
+                Create New Analysis
+              </button>
+            </div>
+          ) : (
+            <button
+              onClick={loadRanking}
+              className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs text-textPrimary hover:bg-white/10 transition"
+            >
+              Retry
+            </button>
+          )}
         </div>
       ) : filteredCandidates.length === 0 ? (
         <div className="glass-card p-12 text-center space-y-2">

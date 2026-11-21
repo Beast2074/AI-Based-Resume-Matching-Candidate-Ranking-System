@@ -23,9 +23,35 @@ PROGRAMMING_CONTEXT_WORDS = {
 
 
 def load_skills_data() -> Dict[str, Dict[str, Any]]:
-    skills_path = Path(__file__).resolve().parent.parent / "data" / "skills.json"
-    with open(skills_path, "r", encoding="utf-8") as f:
-        return json.load(f)
+    # Candidates for skills.json location in local and serverless runtimes
+    candidates = [
+        Path(__file__).resolve().parent.parent / "data" / "skills.json",
+        Path.cwd() / "backend" / "app" / "data" / "skills.json",
+        Path.cwd() / "app" / "data" / "skills.json",
+        Path("/var/task/app/data/skills.json"),
+        Path("/var/task/backend/app/data/skills.json"),
+    ]
+    for skills_path in candidates:
+        if skills_path.exists():
+            try:
+                with open(skills_path, "r", encoding="utf-8") as f:
+                    return json.load(f)
+            except Exception:
+                pass
+
+    # Resilient fallback skill set if file cannot be accessed
+    return {
+        "python": {"aliases": ["python", "py", "python3"], "category": "software"},
+        "javascript": {"aliases": ["javascript", "js", "ecmascript"], "category": "software"},
+        "typescript": {"aliases": ["typescript", "ts"], "category": "software"},
+        "react": {"aliases": ["react", "react.js", "reactjs"], "category": "frontend"},
+        "fastapi": {"aliases": ["fastapi"], "category": "backend"},
+        "docker": {"aliases": ["docker", "containerization"], "category": "devops"},
+        "sql": {"aliases": ["sql", "postgresql", "mysql", "sqlite"], "category": "database"},
+        "git": {"aliases": ["git", "github", "gitlab"], "category": "devops"},
+        "aws": {"aliases": ["aws", "amazon web services"], "category": "cloud"},
+        "node.js": {"aliases": ["node.js", "nodejs", "node"], "category": "backend"},
+    }
 
 
 class SkillMatcher:

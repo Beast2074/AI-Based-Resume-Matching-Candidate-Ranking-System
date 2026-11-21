@@ -4,12 +4,22 @@ TalentRank Pydantic Request & Response Schemas.
 
 from datetime import datetime
 from typing import Dict, List, Optional, Any
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, model_validator
 
 
 class JobCreate(BaseModel):
     title: Optional[str] = None
-    text: str = Field(..., min_length=10, description="Raw job description text")
+    text: str = Field("", description="Raw job description text")
+    raw_text: Optional[str] = None
+
+    @model_validator(mode="before")
+    @classmethod
+    def normalize_text_fields(cls, data: Any):
+        if isinstance(data, dict):
+            val = data.get("text") or data.get("raw_text") or ""
+            data["text"] = val
+            data["raw_text"] = val
+        return data
 
 
 class RequirementsUpdate(BaseModel):

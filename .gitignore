@@ -38,7 +38,9 @@ backend/models/
 .cache/
 
 # Datasets, Sample Files & Large Evaluation Artifacts
-data/
+/data/
+!backend/app/data/
+!backend/app/data/**
 test_samples/
 eval/parsed_cache.pkl
 eval/test_100_results.json

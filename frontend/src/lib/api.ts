@@ -3,7 +3,8 @@
  */
 import { z } from "zod";
 
-export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:8000";
+const rawBaseUrl = import.meta.env.VITE_API_BASE_URL || "http://localhost:8000";
+export const API_BASE_URL = rawBaseUrl.endsWith("/") ? rawBaseUrl.slice(0, -1) : rawBaseUrl;
 
 // --- Zod Schemas ---
 
@@ -144,7 +145,7 @@ export async function createJob(text: string, title?: string): Promise<Job> {
   const res = await fetch(`${API_BASE_URL}/api/jobs`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ text, title }),
+    body: JSON.stringify({ text, raw_text: text, title }),
   });
   if (!res.ok) {
     const err = await res.json().catch(() => ({}));

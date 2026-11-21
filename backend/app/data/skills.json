@@ -1,0 +1,3575 @@
+{
+  "Java": {
+    "aliases": [
+      "core java",
+      "java",
+      "java 11",
+      "java 17",
+      "java 21",
+      "java 8"
+    ],
+    "category": "software"
+  },
+  "JavaScript": {
+    "aliases": [
+      "ecmascript",
+      "es2020",
+      "es6",
+      "javascript",
+      "js"
+    ],
+    "category": "software"
+  },
+  "TypeScript": {
+    "aliases": [
+      "ts",
+      "typescript"
+    ],
+    "category": "software"
+  },
+  "Python": {
+    "aliases": [
+      "python",
+      "python 3",
+      "python3"
+    ],
+    "category": "software"
+  },
+  "C++": {
+    "aliases": [
+      "c plus plus",
+      "c++",
+      "cpp"
+    ],
+    "category": "software"
+  },
+  "C#": {
+    "aliases": [
+      "c sharp",
+      "c#",
+      "csharp"
+    ],
+    "category": "software"
+  },
+  ".NET": {
+    "aliases": [
+      ".net",
+      ".net core",
+      ".net framework",
+      "asp.net",
+      "dotnet",
+      "dotnet core"
+    ],
+    "category": "software"
+  },
+  "Go": {
+    "aliases": [
+      "go",
+      "go lang",
+      "golang"
+    ],
+    "category": "software"
+  },
+  "Spring Boot": {
+    "aliases": [
+      "spring boot",
+      "spring framework",
+      "springboot"
+    ],
+    "category": "web"
+  },
+  "Hibernate": {
+    "aliases": [
+      "hibernate",
+      "jpa"
+    ],
+    "category": "web"
+  },
+  "Node.js": {
+    "aliases": [
+      "node js",
+      "node.js",
+      "nodejs"
+    ],
+    "category": "web"
+  },
+  "FastAPI": {
+    "aliases": [
+      "fastapi"
+    ],
+    "category": "web"
+  },
+  "Django": {
+    "aliases": [
+      "django"
+    ],
+    "category": "web"
+  },
+  "Flask": {
+    "aliases": [
+      "flask"
+    ],
+    "category": "web"
+  },
+  "React": {
+    "aliases": [
+      "react",
+      "react.js",
+      "reactjs"
+    ],
+    "category": "web"
+  },
+  "Next.js": {
+    "aliases": [
+      "next.js",
+      "nextjs"
+    ],
+    "category": "web"
+  },
+  "Angular": {
+    "aliases": [
+      "angular",
+      "angularjs"
+    ],
+    "category": "web"
+  },
+  "Vue": {
+    "aliases": [
+      "vue",
+      "vue.js",
+      "vuejs"
+    ],
+    "category": "web"
+  },
+  "HTML": {
+    "aliases": [
+      "html",
+      "html5"
+    ],
+    "category": "web"
+  },
+  "CSS": {
+    "aliases": [
+      "css",
+      "css3"
+    ],
+    "category": "web"
+  },
+  "Tailwind CSS": {
+    "aliases": [
+      "tailwind",
+      "tailwind css",
+      "tailwindcss"
+    ],
+    "category": "web"
+  },
+  "Redux": {
+    "aliases": [
+      "redux",
+      "redux toolkit"
+    ],
+    "category": "web"
+  },
+  "SQL": {
+    "aliases": [
+      "sql"
+    ],
+    "category": "databases and tools"
+  },
+  "PostgreSQL": {
+    "aliases": [
+      "postgres",
+      "postgresql",
+      "psql"
+    ],
+    "category": "databases and tools"
+  },
+  "MySQL": {
+    "aliases": [
+      "mysql"
+    ],
+    "category": "databases and tools"
+  },
+  "MongoDB": {
+    "aliases": [
+      "mongo",
+      "mongodb"
+    ],
+    "category": "databases and tools"
+  },
+  "Redis": {
+    "aliases": [
+      "redis"
+    ],
+    "category": "databases and tools"
+  },
+  "REST": {
+    "aliases": [
+      "rest",
+      "rest api",
+      "rest apis",
+      "restful"
+    ],
+    "category": "software"
+  },
+  "GraphQL": {
+    "aliases": [
+      "graphql"
+    ],
+    "category": "software"
+  },
+  "Microservices": {
+    "aliases": [
+      "microservice architecture",
+      "microservices"
+    ],
+    "category": "software"
+  },
+  "Kafka": {
+    "aliases": [
+      "apache kafka",
+      "kafka"
+    ],
+    "category": "databases and tools"
+  },
+  "Docker": {
+    "aliases": [
+      "containerization",
+      "containers",
+      "docker"
+    ],
+    "category": "cloud and devops"
+  },
+  "Kubernetes": {
+    "aliases": [
+      "k8s",
+      "kubernetes"
+    ],
+    "category": "cloud and devops"
+  },
+  "AWS": {
+    "aliases": [
+      "amazon web services",
+      "aws",
+      "ec2",
+      "lambda",
+      "s3"
+    ],
+    "category": "cloud and devops"
+  },
+  "Azure": {
+    "aliases": [
+      "azure",
+      "microsoft azure"
+    ],
+    "category": "cloud and devops"
+  },
+  "GCP": {
+    "aliases": [
+      "gcp",
+      "google cloud",
+      "google cloud platform"
+    ],
+    "category": "cloud and devops"
+  },
+  "Terraform": {
+    "aliases": [
+      "terraform"
+    ],
+    "category": "cloud and devops"
+  },
+  "CI/CD": {
+    "aliases": [
+      "ci/cd",
+      "cicd",
+      "continuous delivery",
+      "continuous integration",
+      "github actions",
+      "gitlab ci",
+      "jenkins"
+    ],
+    "category": "cloud and devops"
+  },
+  "Git": {
+    "aliases": [
+      "git",
+      "github",
+      "gitlab"
+    ],
+    "category": "databases and tools"
+  },
+  "Linux": {
+    "aliases": [
+      "linux",
+      "unix"
+    ],
+    "category": "cloud and devops"
+  },
+  "Machine Learning": {
+    "aliases": [
+      "machine learning",
+      "ml"
+    ],
+    "category": "data and AI"
+  },
+  "Deep Learning": {
+    "aliases": [
+      "deep learning"
+    ],
+    "category": "data and AI"
+  },
+  "NLP": {
+    "aliases": [
+      "natural language processing",
+      "nlp"
+    ],
+    "category": "data and AI"
+  },
+  "PyTorch": {
+    "aliases": [
+      "pytorch",
+      "torch"
+    ],
+    "category": "data and AI"
+  },
+  "TensorFlow": {
+    "aliases": [
+      "keras",
+      "tensorflow"
+    ],
+    "category": "data and AI"
+  },
+  "scikit-learn": {
+    "aliases": [
+      "scikit-learn",
+      "sklearn"
+    ],
+    "category": "data and AI"
+  },
+  "Pandas": {
+    "aliases": [
+      "pandas"
+    ],
+    "category": "data and AI"
+  },
+  "NumPy": {
+    "aliases": [
+      "numpy"
+    ],
+    "category": "data and AI"
+  },
+  "Spark": {
+    "aliases": [
+      "apache spark",
+      "pyspark",
+      "spark"
+    ],
+    "category": "data and AI"
+  },
+  "Airflow": {
+    "aliases": [
+      "airflow",
+      "apache airflow"
+    ],
+    "category": "data and AI"
+  },
+  "Power BI": {
+    "aliases": [
+      "power bi",
+      "powerbi"
+    ],
+    "category": "data and AI"
+  },
+  "Tableau": {
+    "aliases": [
+      "tableau"
+    ],
+    "category": "data and AI"
+  },
+  "Agile": {
+    "aliases": [
+      "agile",
+      "kanban",
+      "scrum"
+    ],
+    "category": "databases and tools"
+  },
+  "Unit Testing": {
+    "aliases": [
+      "jest",
+      "junit",
+      "mockito",
+      "pytest",
+      "unit testing"
+    ],
+    "category": "databases and tools"
+  },
+  "Rust": {
+    "aliases": [
+      "rust",
+      "rustlang"
+    ],
+    "category": "software"
+  },
+  "C": {
+    "aliases": [
+      "ansi c",
+      "c",
+      "c language",
+      "c programming"
+    ],
+    "category": "software"
+  },
+  "Scala": {
+    "aliases": [
+      "scala"
+    ],
+    "category": "software"
+  },
+  "Kotlin": {
+    "aliases": [
+      "kotlin"
+    ],
+    "category": "software"
+  },
+  "Swift": {
+    "aliases": [
+      "swift"
+    ],
+    "category": "software"
+  },
+  "PHP": {
+    "aliases": [
+      "php",
+      "php7",
+      "php8"
+    ],
+    "category": "software"
+  },
+  "Ruby": {
+    "aliases": [
+      "ruby"
+    ],
+    "category": "software"
+  },
+  "Dart": {
+    "aliases": [
+      "dart"
+    ],
+    "category": "software"
+  },
+  "Perl": {
+    "aliases": [
+      "perl"
+    ],
+    "category": "software"
+  },
+  "Haskell": {
+    "aliases": [
+      "haskell"
+    ],
+    "category": "software"
+  },
+  "Elixir": {
+    "aliases": [
+      "elixir"
+    ],
+    "category": "software"
+  },
+  "Clojure": {
+    "aliases": [
+      "clojure"
+    ],
+    "category": "software"
+  },
+  "Lua": {
+    "aliases": [
+      "lua"
+    ],
+    "category": "software"
+  },
+  "Erlang": {
+    "aliases": [
+      "erlang"
+    ],
+    "category": "software"
+  },
+  "Groovy": {
+    "aliases": [
+      "groovy"
+    ],
+    "category": "software"
+  },
+  "Visual Basic": {
+    "aliases": [
+      "vb.net",
+      "vba",
+      "visual basic"
+    ],
+    "category": "software"
+  },
+  "Assembly": {
+    "aliases": [
+      "arm assembly",
+      "asm",
+      "assembly",
+      "x86 assembly"
+    ],
+    "category": "software"
+  },
+  "Fortran": {
+    "aliases": [
+      "fortran"
+    ],
+    "category": "software"
+  },
+  "COBOL": {
+    "aliases": [
+      "cobol"
+    ],
+    "category": "software"
+  },
+  "Solidity": {
+    "aliases": [
+      "solidity"
+    ],
+    "category": "software"
+  },
+  "VHDL": {
+    "aliases": [
+      "verilog",
+      "vhdl"
+    ],
+    "category": "software"
+  },
+  "Objective-C": {
+    "aliases": [
+      "objc",
+      "objective-c"
+    ],
+    "category": "software"
+  },
+  "Object-Oriented Programming": {
+    "aliases": [
+      "object-oriented programming",
+      "oop"
+    ],
+    "category": "software"
+  },
+  "Functional Programming": {
+    "aliases": [
+      "functional programming"
+    ],
+    "category": "software"
+  },
+  "Design Patterns": {
+    "aliases": [
+      "design patterns",
+      "gang of four"
+    ],
+    "category": "software"
+  },
+  "Domain-Driven Design": {
+    "aliases": [
+      "ddd",
+      "domain-driven design"
+    ],
+    "category": "software"
+  },
+  "Test-Driven Development": {
+    "aliases": [
+      "tdd",
+      "test-driven development"
+    ],
+    "category": "software"
+  },
+  "Behavior-Driven Development": {
+    "aliases": [
+      "bdd",
+      "behavior-driven development"
+    ],
+    "category": "software"
+  },
+  "Event-Driven Architecture": {
+    "aliases": [
+      "event driven",
+      "event-driven architecture"
+    ],
+    "category": "software"
+  },
+  "Clean Architecture": {
+    "aliases": [
+      "clean architecture",
+      "hexagonal architecture",
+      "onion architecture"
+    ],
+    "category": "software"
+  },
+  "Service-Oriented Architecture": {
+    "aliases": [
+      "service-oriented architecture",
+      "soa"
+    ],
+    "category": "software"
+  },
+  "gRPC": {
+    "aliases": [
+      "grpc",
+      "protobuf",
+      "protocol buffers"
+    ],
+    "category": "software"
+  },
+  "WebSockets": {
+    "aliases": [
+      "websocket",
+      "websockets"
+    ],
+    "category": "software"
+  },
+  "SOAP": {
+    "aliases": [
+      "soap",
+      "wsdl"
+    ],
+    "category": "software"
+  },
+  "Monolithic Architecture": {
+    "aliases": [
+      "monolith",
+      "monolithic",
+      "monolithic architecture"
+    ],
+    "category": "software"
+  },
+  "Serverless Architecture": {
+    "aliases": [
+      "serverless architecture",
+      "serverless computing"
+    ],
+    "category": "software"
+  },
+  "Model-View-Controller": {
+    "aliases": [
+      "model-view-controller",
+      "mvc"
+    ],
+    "category": "software"
+  },
+  "Data Structures": {
+    "aliases": [
+      "algorithms",
+      "data structures"
+    ],
+    "category": "software"
+  },
+  "Concurrency": {
+    "aliases": [
+      "async/await",
+      "asynchronous programming",
+      "concurrency",
+      "multithreading"
+    ],
+    "category": "software"
+  },
+  "Nuxt.js": {
+    "aliases": [
+      "nuxt",
+      "nuxt.js",
+      "nuxtjs"
+    ],
+    "category": "web"
+  },
+  "Svelte": {
+    "aliases": [
+      "svelte",
+      "sveltekit"
+    ],
+    "category": "web"
+  },
+  "Bootstrap": {
+    "aliases": [
+      "bootstrap",
+      "bootstrap 5"
+    ],
+    "category": "web"
+  },
+  "Sass": {
+    "aliases": [
+      "sass",
+      "scss"
+    ],
+    "category": "web"
+  },
+  "Less": {
+    "aliases": [
+      "less",
+      "less css"
+    ],
+    "category": "web"
+  },
+  "Zustand": {
+    "aliases": [
+      "zustand"
+    ],
+    "category": "web"
+  },
+  "MobX": {
+    "aliases": [
+      "mobx"
+    ],
+    "category": "web"
+  },
+  "RxJS": {
+    "aliases": [
+      "rxjs"
+    ],
+    "category": "web"
+  },
+  "jQuery": {
+    "aliases": [
+      "jquery"
+    ],
+    "category": "web"
+  },
+  "Webpack": {
+    "aliases": [
+      "webpack"
+    ],
+    "category": "web"
+  },
+  "Vite": {
+    "aliases": [
+      "vite",
+      "vitejs"
+    ],
+    "category": "web"
+  },
+  "Rollup": {
+    "aliases": [
+      "rollup",
+      "rollup.js"
+    ],
+    "category": "web"
+  },
+  "Babel": {
+    "aliases": [
+      "babel"
+    ],
+    "category": "web"
+  },
+  "ESLint": {
+    "aliases": [
+      "eslint"
+    ],
+    "category": "web"
+  },
+  "Prettier": {
+    "aliases": [
+      "prettier"
+    ],
+    "category": "web"
+  },
+  "Storybook": {
+    "aliases": [
+      "storybook"
+    ],
+    "category": "web"
+  },
+  "Material UI": {
+    "aliases": [
+      "material ui",
+      "mui"
+    ],
+    "category": "web"
+  },
+  "Chakra UI": {
+    "aliases": [
+      "chakra ui"
+    ],
+    "category": "web"
+  },
+  "Ant Design": {
+    "aliases": [
+      "ant design",
+      "antd"
+    ],
+    "category": "web"
+  },
+  "Styled Components": {
+    "aliases": [
+      "styled components",
+      "styled-components"
+    ],
+    "category": "web"
+  },
+  "WebAssembly": {
+    "aliases": [
+      "wasm",
+      "webassembly"
+    ],
+    "category": "web"
+  },
+  "Progressive Web Apps": {
+    "aliases": [
+      "progressive web apps",
+      "pwa"
+    ],
+    "category": "web"
+  },
+  "Responsive Web Design": {
+    "aliases": [
+      "mobile-first",
+      "responsive design",
+      "responsive web design"
+    ],
+    "category": "web"
+  },
+  "Web Accessibility": {
+    "aliases": [
+      "a11y",
+      "accessibility",
+      "wcag",
+      "web accessibility"
+    ],
+    "category": "web"
+  },
+  "Remix": {
+    "aliases": [
+      "remix",
+      "remix.run"
+    ],
+    "category": "web"
+  },
+  "Gatsby": {
+    "aliases": [
+      "gatsby",
+      "gatsbyjs"
+    ],
+    "category": "web"
+  },
+  "Astro": {
+    "aliases": [
+      "astro",
+      "astro js",
+      "astro.build"
+    ],
+    "category": "web"
+  },
+  "Electron": {
+    "aliases": [
+      "electron",
+      "electron.js"
+    ],
+    "category": "web"
+  },
+  "React Native": {
+    "aliases": [
+      "react native",
+      "react-native"
+    ],
+    "category": "software"
+  },
+  "Flutter": {
+    "aliases": [
+      "flutter",
+      "flutter sdk"
+    ],
+    "category": "software"
+  },
+  "Ionic": {
+    "aliases": [
+      "ionic",
+      "ionic framework"
+    ],
+    "category": "web"
+  },
+  "Express": {
+    "aliases": [
+      "express",
+      "express.js",
+      "expressjs"
+    ],
+    "category": "web"
+  },
+  "NestJS": {
+    "aliases": [
+      "nest.js",
+      "nestjs"
+    ],
+    "category": "web"
+  },
+  "Fastify": {
+    "aliases": [
+      "fastify"
+    ],
+    "category": "web"
+  },
+  "Koa": {
+    "aliases": [
+      "koa",
+      "koa.js"
+    ],
+    "category": "web"
+  },
+  "Tornado": {
+    "aliases": [
+      "tornado"
+    ],
+    "category": "web"
+  },
+  "Pyramid": {
+    "aliases": [
+      "pyramid",
+      "pyramid framework"
+    ],
+    "category": "web"
+  },
+  "Spring Cloud": {
+    "aliases": [
+      "spring cloud"
+    ],
+    "category": "web"
+  },
+  "Spring Security": {
+    "aliases": [
+      "spring security"
+    ],
+    "category": "web"
+  },
+  "Micronaut": {
+    "aliases": [
+      "micronaut"
+    ],
+    "category": "web"
+  },
+  "Quarkus": {
+    "aliases": [
+      "quarkus"
+    ],
+    "category": "web"
+  },
+  "ASP.NET Core": {
+    "aliases": [
+      "asp.net core",
+      "asp.net mvc",
+      "web api"
+    ],
+    "category": "web"
+  },
+  "Ruby on Rails": {
+    "aliases": [
+      "rails",
+      "ruby on rails"
+    ],
+    "category": "web"
+  },
+  "Sinatra": {
+    "aliases": [
+      "sinatra"
+    ],
+    "category": "web"
+  },
+  "Laravel": {
+    "aliases": [
+      "laravel"
+    ],
+    "category": "web"
+  },
+  "Symfony": {
+    "aliases": [
+      "symfony"
+    ],
+    "category": "web"
+  },
+  "CodeIgniter": {
+    "aliases": [
+      "codeigniter"
+    ],
+    "category": "web"
+  },
+  "Gin": {
+    "aliases": [
+      "gin",
+      "gin framework",
+      "gin-gonic"
+    ],
+    "category": "web"
+  },
+  "Echo": {
+    "aliases": [
+      "echo",
+      "echo framework",
+      "labstack echo"
+    ],
+    "category": "web"
+  },
+  "Fiber": {
+    "aliases": [
+      "fiber",
+      "fiber framework",
+      "gofiber"
+    ],
+    "category": "web"
+  },
+  "Actix": {
+    "aliases": [
+      "actix",
+      "actix web",
+      "actix-web"
+    ],
+    "category": "web"
+  },
+  "Rocket": {
+    "aliases": [
+      "rocket",
+      "rocket.rs"
+    ],
+    "category": "web"
+  },
+  "Axum": {
+    "aliases": [
+      "axum"
+    ],
+    "category": "web"
+  },
+  "Computer Vision": {
+    "aliases": [
+      "computer vision",
+      "cv"
+    ],
+    "category": "data and AI"
+  },
+  "SciPy": {
+    "aliases": [
+      "scipy"
+    ],
+    "category": "data and AI"
+  },
+  "XGBoost": {
+    "aliases": [
+      "xgboost"
+    ],
+    "category": "data and AI"
+  },
+  "LightGBM": {
+    "aliases": [
+      "lightgbm"
+    ],
+    "category": "data and AI"
+  },
+  "CatBoost": {
+    "aliases": [
+      "catboost"
+    ],
+    "category": "data and AI"
+  },
+  "Hugging Face": {
+    "aliases": [
+      "hugging face",
+      "huggingface",
+      "transformers"
+    ],
+    "category": "data and AI"
+  },
+  "Large Language Models": {
+    "aliases": [
+      "genai",
+      "generative ai",
+      "large language models",
+      "llm",
+      "llms"
+    ],
+    "category": "data and AI"
+  },
+  "LangChain": {
+    "aliases": [
+      "langchain"
+    ],
+    "category": "data and AI"
+  },
+  "LlamaIndex": {
+    "aliases": [
+      "llamaindex"
+    ],
+    "category": "data and AI"
+  },
+  "Reinforcement Learning": {
+    "aliases": [
+      "reinforcement learning",
+      "rl"
+    ],
+    "category": "data and AI"
+  },
+  "R": {
+    "aliases": [
+      "r",
+      "r language",
+      "r programming",
+      "r stats"
+    ],
+    "category": "data and AI"
+  },
+  "Julia": {
+    "aliases": [
+      "julia",
+      "julialang"
+    ],
+    "category": "data and AI"
+  },
+  "MATLAB": {
+    "aliases": [
+      "matlab",
+      "simulink"
+    ],
+    "category": "data and AI"
+  },
+  "Apache Flink": {
+    "aliases": [
+      "apache flink",
+      "flink"
+    ],
+    "category": "data and AI"
+  },
+  "Luigi": {
+    "aliases": [
+      "luigi"
+    ],
+    "category": "data and AI"
+  },
+  "Prefect": {
+    "aliases": [
+      "prefect"
+    ],
+    "category": "data and AI"
+  },
+  "Dagster": {
+    "aliases": [
+      "dagster"
+    ],
+    "category": "data and AI"
+  },
+  "Hadoop": {
+    "aliases": [
+      "apache hadoop",
+      "hadoop",
+      "hdfs"
+    ],
+    "category": "data and AI"
+  },
+  "Apache Hive": {
+    "aliases": [
+      "apache hive",
+      "hive"
+    ],
+    "category": "data and AI"
+  },
+  "Apache Cassandra": {
+    "aliases": [
+      "apache cassandra",
+      "cassandra"
+    ],
+    "category": "data and AI"
+  },
+  "Apache HBase": {
+    "aliases": [
+      "apache hbase",
+      "hbase"
+    ],
+    "category": "data and AI"
+  },
+  "Dbt": {
+    "aliases": [
+      "data build tool",
+      "dbt"
+    ],
+    "category": "data and AI"
+  },
+  "Snowflake": {
+    "aliases": [
+      "snowflake"
+    ],
+    "category": "data and AI"
+  },
+  "Databricks": {
+    "aliases": [
+      "databricks"
+    ],
+    "category": "data and AI"
+  },
+  "Google BigQuery": {
+    "aliases": [
+      "bigquery",
+      "google bigquery"
+    ],
+    "category": "data and AI"
+  },
+  "Amazon Redshift": {
+    "aliases": [
+      "amazon redshift",
+      "redshift"
+    ],
+    "category": "data and AI"
+  },
+  "Azure Synapse": {
+    "aliases": [
+      "azure synapse",
+      "synapse"
+    ],
+    "category": "data and AI"
+  },
+  "Looker": {
+    "aliases": [
+      "looker",
+      "lookml"
+    ],
+    "category": "data and AI"
+  },
+  "Metabase": {
+    "aliases": [
+      "metabase"
+    ],
+    "category": "data and AI"
+  },
+  "Superset": {
+    "aliases": [
+      "apache superset",
+      "superset"
+    ],
+    "category": "data and AI"
+  },
+  "Matplotlib": {
+    "aliases": [
+      "matplotlib"
+    ],
+    "category": "data and AI"
+  },
+  "Seaborn": {
+    "aliases": [
+      "seaborn"
+    ],
+    "category": "data and AI"
+  },
+  "Plotly": {
+    "aliases": [
+      "dash",
+      "plotly"
+    ],
+    "category": "data and AI"
+  },
+  "OpenCV": {
+    "aliases": [
+      "cv2",
+      "opencv"
+    ],
+    "category": "data and AI"
+  },
+  "Spacy": {
+    "aliases": [
+      "spacy"
+    ],
+    "category": "data and AI"
+  },
+  "NLTK": {
+    "aliases": [
+      "nltk"
+    ],
+    "category": "data and AI"
+  },
+  "Gensim": {
+    "aliases": [
+      "gensim"
+    ],
+    "category": "data and AI"
+  },
+  "FastText": {
+    "aliases": [
+      "fasttext"
+    ],
+    "category": "data and AI"
+  },
+  "BERT": {
+    "aliases": [
+      "bert",
+      "distilbert",
+      "roberta"
+    ],
+    "category": "data and AI"
+  },
+  "GPT": {
+    "aliases": [
+      "gpt",
+      "gpt-3",
+      "gpt-4",
+      "openai api"
+    ],
+    "category": "data and AI"
+  },
+  "Vector Databases": {
+    "aliases": [
+      "chromadb",
+      "milvus",
+      "pinecone",
+      "qdrant",
+      "vector database",
+      "vector databases",
+      "vector db",
+      "weaviate"
+    ],
+    "category": "data and AI"
+  },
+  "FAISS": {
+    "aliases": [
+      "faiss"
+    ],
+    "category": "data and AI"
+  },
+  "ETL Pipelines": {
+    "aliases": [
+      "data pipelines",
+      "elt",
+      "etl",
+      "etl pipelines"
+    ],
+    "category": "data and AI"
+  },
+  "Data Modeling": {
+    "aliases": [
+      "data modeling",
+      "dimensional modeling",
+      "snowflake schema",
+      "star schema"
+    ],
+    "category": "data and AI"
+  },
+  "Data Warehousing": {
+    "aliases": [
+      "data warehouse",
+      "data warehousing",
+      "dwh"
+    ],
+    "category": "data and AI"
+  },
+  "Data Lakes": {
+    "aliases": [
+      "apache hudi",
+      "apache iceberg",
+      "data lake",
+      "data lakes",
+      "delta lake"
+    ],
+    "category": "data and AI"
+  },
+  "Statistical Analysis": {
+    "aliases": [
+      "a/b testing",
+      "hypothesis testing",
+      "statistical analysis",
+      "statistics"
+    ],
+    "category": "data and AI"
+  },
+  "Feature Engineering": {
+    "aliases": [
+      "feature engineering",
+      "feature extraction"
+    ],
+    "category": "data and AI"
+  },
+  "Model Evaluation": {
+    "aliases": [
+      "cross-validation",
+      "model evaluation",
+      "precision-recall",
+      "roc-auc"
+    ],
+    "category": "data and AI"
+  },
+  "MLOps": {
+    "aliases": [
+      "kubeflow",
+      "mlflow",
+      "mlops",
+      "model deployment",
+      "wandb",
+      "weights & biases"
+    ],
+    "category": "data and AI"
+  },
+  "Time Series Analysis": {
+    "aliases": [
+      "arima",
+      "prophet",
+      "time series",
+      "time series analysis"
+    ],
+    "category": "data and AI"
+  },
+  "Helm": {
+    "aliases": [
+      "helm",
+      "helm charts"
+    ],
+    "category": "cloud and devops"
+  },
+  "Ansible": {
+    "aliases": [
+      "ansible"
+    ],
+    "category": "cloud and devops"
+  },
+  "Puppet": {
+    "aliases": [
+      "puppet"
+    ],
+    "category": "cloud and devops"
+  },
+  "Chef": {
+    "aliases": [
+      "chef"
+    ],
+    "category": "cloud and devops"
+  },
+  "Pulumi": {
+    "aliases": [
+      "pulumi"
+    ],
+    "category": "cloud and devops"
+  },
+  "Jenkins": {
+    "aliases": [
+      "jenkins",
+      "jenkinsfile"
+    ],
+    "category": "cloud and devops"
+  },
+  "GitHub Actions": {
+    "aliases": [
+      "gh actions",
+      "github actions"
+    ],
+    "category": "cloud and devops"
+  },
+  "GitLab CI": {
+    "aliases": [
+      "gitlab ci",
+      "gitlab-ci"
+    ],
+    "category": "cloud and devops"
+  },
+  "CircleCI": {
+    "aliases": [
+      "circleci"
+    ],
+    "category": "cloud and devops"
+  },
+  "Travis CI": {
+    "aliases": [
+      "travis ci"
+    ],
+    "category": "cloud and devops"
+  },
+  "ArgoCD": {
+    "aliases": [
+      "argo cd",
+      "argocd"
+    ],
+    "category": "cloud and devops"
+  },
+  "FluxCD": {
+    "aliases": [
+      "flux cd",
+      "fluxcd"
+    ],
+    "category": "cloud and devops"
+  },
+  "Nginx": {
+    "aliases": [
+      "nginx"
+    ],
+    "category": "cloud and devops"
+  },
+  "Apache HTTP Server": {
+    "aliases": [
+      "apache",
+      "apache http server",
+      "apache httpd",
+      "httpd"
+    ],
+    "category": "cloud and devops"
+  },
+  "Traefik": {
+    "aliases": [
+      "traefik"
+    ],
+    "category": "cloud and devops"
+  },
+  "Envoy": {
+    "aliases": [
+      "envoy",
+      "envoy proxy"
+    ],
+    "category": "cloud and devops"
+  },
+  "Prometheus": {
+    "aliases": [
+      "prometheus"
+    ],
+    "category": "cloud and devops"
+  },
+  "Grafana": {
+    "aliases": [
+      "grafana"
+    ],
+    "category": "cloud and devops"
+  },
+  "ELK Stack": {
+    "aliases": [
+      "elk",
+      "elk stack",
+      "kibana",
+      "logstash"
+    ],
+    "category": "cloud and devops"
+  },
+  "Datadog": {
+    "aliases": [
+      "datadog"
+    ],
+    "category": "cloud and devops"
+  },
+  "New Relic": {
+    "aliases": [
+      "new relic"
+    ],
+    "category": "cloud and devops"
+  },
+  "Splunk": {
+    "aliases": [
+      "splunk"
+    ],
+    "category": "cloud and devops"
+  },
+  "Dynatrace": {
+    "aliases": [
+      "dynatrace"
+    ],
+    "category": "cloud and devops"
+  },
+  "OpenTelemetry": {
+    "aliases": [
+      "opentelemetry",
+      "otel"
+    ],
+    "category": "cloud and devops"
+  },
+  "Jaeger": {
+    "aliases": [
+      "jaeger"
+    ],
+    "category": "cloud and devops"
+  },
+  "Zipkin": {
+    "aliases": [
+      "zipkin"
+    ],
+    "category": "cloud and devops"
+  },
+  "Cloudflare": {
+    "aliases": [
+      "cloudflare",
+      "cloudflare workers"
+    ],
+    "category": "cloud and devops"
+  },
+  "Vercel": {
+    "aliases": [
+      "vercel"
+    ],
+    "category": "cloud and devops"
+  },
+  "Netlify": {
+    "aliases": [
+      "netlify"
+    ],
+    "category": "cloud and devops"
+  },
+  "Heroku": {
+    "aliases": [
+      "heroku"
+    ],
+    "category": "cloud and devops"
+  },
+  "AWS Lambda": {
+    "aliases": [
+      "aws lambda",
+      "lambda functions"
+    ],
+    "category": "cloud and devops"
+  },
+  "AWS ECS": {
+    "aliases": [
+      "amazon ecs",
+      "aws ecs",
+      "ecs",
+      "fargate"
+    ],
+    "category": "cloud and devops"
+  },
+  "AWS EKS": {
+    "aliases": [
+      "amazon eks",
+      "aws eks",
+      "eks"
+    ],
+    "category": "cloud and devops"
+  },
+  "GKE": {
+    "aliases": [
+      "gke",
+      "google kubernetes engine"
+    ],
+    "category": "cloud and devops"
+  },
+  "AKS": {
+    "aliases": [
+      "aks",
+      "azure kubernetes service"
+    ],
+    "category": "cloud and devops"
+  },
+  "CloudFormation": {
+    "aliases": [
+      "cloudformation"
+    ],
+    "category": "cloud and devops"
+  },
+  "OpenStack": {
+    "aliases": [
+      "openstack"
+    ],
+    "category": "cloud and devops"
+  },
+  "VMware": {
+    "aliases": [
+      "esxi",
+      "vcenter",
+      "vmware",
+      "vsphere"
+    ],
+    "category": "cloud and devops"
+  },
+  "Vagrant": {
+    "aliases": [
+      "hashicorp vagrant",
+      "vagrant"
+    ],
+    "category": "cloud and devops"
+  },
+  "Site Reliability Engineering": {
+    "aliases": [
+      "site reliability engineering",
+      "sre"
+    ],
+    "category": "cloud and devops"
+  },
+  "DevSecOps": {
+    "aliases": [
+      "devsecops",
+      "security scanning",
+      "snyk",
+      "sonarqube"
+    ],
+    "category": "cloud and devops"
+  },
+  "MariaDB": {
+    "aliases": [
+      "mariadb"
+    ],
+    "category": "databases and tools"
+  },
+  "SQLite": {
+    "aliases": [
+      "sqlite",
+      "sqlite3"
+    ],
+    "category": "databases and tools"
+  },
+  "Microsoft SQL Server": {
+    "aliases": [
+      "microsoft sql server",
+      "mssql",
+      "sql server",
+      "t-sql"
+    ],
+    "category": "databases and tools"
+  },
+  "Oracle Database": {
+    "aliases": [
+      "oracle",
+      "oracle database",
+      "oracle db",
+      "pl/sql"
+    ],
+    "category": "databases and tools"
+  },
+  "Elasticsearch": {
+    "aliases": [
+      "elastic search",
+      "elasticsearch",
+      "opensearch"
+    ],
+    "category": "databases and tools"
+  },
+  "Neo4j": {
+    "aliases": [
+      "cypher",
+      "neo4j"
+    ],
+    "category": "databases and tools"
+  },
+  "Couchbase": {
+    "aliases": [
+      "couchbase"
+    ],
+    "category": "databases and tools"
+  },
+  "CouchDB": {
+    "aliases": [
+      "couchdb"
+    ],
+    "category": "databases and tools"
+  },
+  "DynamoDB": {
+    "aliases": [
+      "amazon dynamodb",
+      "dynamodb"
+    ],
+    "category": "databases and tools"
+  },
+  "Firebase": {
+    "aliases": [
+      "firebase",
+      "firestore",
+      "realtime database"
+    ],
+    "category": "databases and tools"
+  },
+  "Supabase": {
+    "aliases": [
+      "supabase"
+    ],
+    "category": "databases and tools"
+  },
+  "FaunaDB": {
+    "aliases": [
+      "faunadb"
+    ],
+    "category": "databases and tools"
+  },
+  "CockroachDB": {
+    "aliases": [
+      "cockroachdb"
+    ],
+    "category": "databases and tools"
+  },
+  "TiDB": {
+    "aliases": [
+      "tidb"
+    ],
+    "category": "databases and tools"
+  },
+  "ClickHouse": {
+    "aliases": [
+      "clickhouse"
+    ],
+    "category": "databases and tools"
+  },
+  "TimescaleDB": {
+    "aliases": [
+      "timescale",
+      "timescaledb"
+    ],
+    "category": "databases and tools"
+  },
+  "InfluxDB": {
+    "aliases": [
+      "influxdb"
+    ],
+    "category": "databases and tools"
+  },
+  "Memcached": {
+    "aliases": [
+      "memcached"
+    ],
+    "category": "databases and tools"
+  },
+  "RabbitMQ": {
+    "aliases": [
+      "amqp",
+      "rabbitmq"
+    ],
+    "category": "databases and tools"
+  },
+  "ActiveMQ": {
+    "aliases": [
+      "activemq"
+    ],
+    "category": "databases and tools"
+  },
+  "Apache Pulsar": {
+    "aliases": [
+      "apache pulsar",
+      "pulsar"
+    ],
+    "category": "databases and tools"
+  },
+  "ZeroMQ": {
+    "aliases": [
+      "0mq",
+      "zeromq"
+    ],
+    "category": "databases and tools"
+  },
+  "AWS SQS": {
+    "aliases": [
+      "amazon sqs",
+      "aws sqs",
+      "sqs"
+    ],
+    "category": "databases and tools"
+  },
+  "AWS SNS": {
+    "aliases": [
+      "amazon sns",
+      "aws sns",
+      "sns"
+    ],
+    "category": "databases and tools"
+  },
+  "GCP Pub/Sub": {
+    "aliases": [
+      "gcp pub/sub",
+      "google pubsub",
+      "pub/sub"
+    ],
+    "category": "databases and tools"
+  },
+  "Azure Service Bus": {
+    "aliases": [
+      "azure service bus"
+    ],
+    "category": "databases and tools"
+  },
+  "Prisma": {
+    "aliases": [
+      "prisma",
+      "prisma orm"
+    ],
+    "category": "databases and tools"
+  },
+  "TypeORM": {
+    "aliases": [
+      "typeorm"
+    ],
+    "category": "databases and tools"
+  },
+  "Sequelize": {
+    "aliases": [
+      "sequelize"
+    ],
+    "category": "databases and tools"
+  },
+  "SQLAlchemy": {
+    "aliases": [
+      "sqlalchemy"
+    ],
+    "category": "databases and tools"
+  },
+  "Mongoose": {
+    "aliases": [
+      "mongoose"
+    ],
+    "category": "databases and tools"
+  },
+  "Liquibase": {
+    "aliases": [
+      "liquibase"
+    ],
+    "category": "databases and tools"
+  },
+  "Flyway": {
+    "aliases": [
+      "flyway"
+    ],
+    "category": "databases and tools"
+  },
+  "Database Indexing": {
+    "aliases": [
+      "database indexing",
+      "explain plan",
+      "query optimization"
+    ],
+    "category": "databases and tools"
+  },
+  "Database Replication": {
+    "aliases": [
+      "clustering",
+      "database replication",
+      "sharding"
+    ],
+    "category": "databases and tools"
+  },
+  "ACID Compliance": {
+    "aliases": [
+      "acid compliance",
+      "acid transactions"
+    ],
+    "category": "databases and tools"
+  },
+  "GitHub": {
+    "aliases": [
+      "github"
+    ],
+    "category": "databases and tools"
+  },
+  "GitLab": {
+    "aliases": [
+      "gitlab"
+    ],
+    "category": "databases and tools"
+  },
+  "Bitbucket": {
+    "aliases": [
+      "bitbucket"
+    ],
+    "category": "databases and tools"
+  },
+  "Jira": {
+    "aliases": [
+      "jira"
+    ],
+    "category": "databases and tools"
+  },
+  "Confluence": {
+    "aliases": [
+      "confluence"
+    ],
+    "category": "databases and tools"
+  },
+  "Trello": {
+    "aliases": [
+      "trello"
+    ],
+    "category": "databases and tools"
+  },
+  "Asana": {
+    "aliases": [
+      "asana"
+    ],
+    "category": "databases and tools"
+  },
+  "Linear": {
+    "aliases": [
+      "linear"
+    ],
+    "category": "databases and tools"
+  },
+  "Postman": {
+    "aliases": [
+      "postman"
+    ],
+    "category": "databases and tools"
+  },
+  "Swagger": {
+    "aliases": [
+      "openapi",
+      "swagger"
+    ],
+    "category": "databases and tools"
+  },
+  "Insomnia": {
+    "aliases": [
+      "insomnia",
+      "insomnia rest"
+    ],
+    "category": "databases and tools"
+  },
+  "Scrum Master": {
+    "aliases": [
+      "scrum master"
+    ],
+    "category": "databases and tools"
+  },
+  "Integration Testing": {
+    "aliases": [
+      "integration testing",
+      "integration tests"
+    ],
+    "category": "databases and tools"
+  },
+  "End-to-End Testing": {
+    "aliases": [
+      "cypress",
+      "e2e testing",
+      "end-to-end testing",
+      "playwright",
+      "selenium"
+    ],
+    "category": "databases and tools"
+  },
+  "Jest": {
+    "aliases": [
+      "jest"
+    ],
+    "category": "databases and tools"
+  },
+  "Vitest": {
+    "aliases": [
+      "vitest"
+    ],
+    "category": "databases and tools"
+  },
+  "PyTest": {
+    "aliases": [
+      "pytest"
+    ],
+    "category": "databases and tools"
+  },
+  "JUnit": {
+    "aliases": [
+      "junit",
+      "junit5"
+    ],
+    "category": "databases and tools"
+  },
+  "Mockito": {
+    "aliases": [
+      "mockito"
+    ],
+    "category": "databases and tools"
+  },
+  "Cypress": {
+    "aliases": [
+      "cypress"
+    ],
+    "category": "databases and tools"
+  },
+  "Playwright": {
+    "aliases": [
+      "playwright"
+    ],
+    "category": "databases and tools"
+  },
+  "Selenium": {
+    "aliases": [
+      "selenium",
+      "selenium webdriver"
+    ],
+    "category": "databases and tools"
+  },
+  "Mocha": {
+    "aliases": [
+      "mocha"
+    ],
+    "category": "databases and tools"
+  },
+  "Chai": {
+    "aliases": [
+      "chai"
+    ],
+    "category": "databases and tools"
+  },
+  "Karma": {
+    "aliases": [
+      "karma"
+    ],
+    "category": "databases and tools"
+  },
+  "Jasmine": {
+    "aliases": [
+      "jasmine"
+    ],
+    "category": "databases and tools"
+  },
+  "PostCSS": {
+    "aliases": [
+      "postcss"
+    ],
+    "category": "databases and tools"
+  },
+  "Bash": {
+    "aliases": [
+      "bash",
+      "bash script",
+      "bash scripting"
+    ],
+    "category": "databases and tools"
+  },
+  "PowerShell": {
+    "aliases": [
+      "powershell"
+    ],
+    "category": "databases and tools"
+  },
+  "Vim": {
+    "aliases": [
+      "neovim",
+      "vim"
+    ],
+    "category": "databases and tools"
+  },
+  "Visual Studio Code": {
+    "aliases": [
+      "visual studio code",
+      "vs code",
+      "vscode"
+    ],
+    "category": "databases and tools"
+  },
+  "IntelliJ IDEA": {
+    "aliases": [
+      "intellij",
+      "intellij idea"
+    ],
+    "category": "databases and tools"
+  },
+  "Eclipse": {
+    "aliases": [
+      "eclipse",
+      "eclipse ide"
+    ],
+    "category": "databases and tools"
+  },
+  "PyCharm": {
+    "aliases": [
+      "pycharm"
+    ],
+    "category": "databases and tools"
+  },
+  "WebStorm": {
+    "aliases": [
+      "webstorm"
+    ],
+    "category": "databases and tools"
+  },
+  "Android Studio": {
+    "aliases": [
+      "android studio"
+    ],
+    "category": "databases and tools"
+  },
+  "Xcode": {
+    "aliases": [
+      "xcode"
+    ],
+    "category": "databases and tools"
+  },
+  "Visual Studio": {
+    "aliases": [
+      "visual studio"
+    ],
+    "category": "databases and tools"
+  },
+  "Maven": {
+    "aliases": [
+      "maven",
+      "pom.xml"
+    ],
+    "category": "databases and tools"
+  },
+  "Gradle": {
+    "aliases": [
+      "build.gradle",
+      "gradle"
+    ],
+    "category": "databases and tools"
+  },
+  "npm": {
+    "aliases": [
+      "npm"
+    ],
+    "category": "databases and tools"
+  },
+  "yarn": {
+    "aliases": [
+      "yarn"
+    ],
+    "category": "databases and tools"
+  },
+  "pnpm": {
+    "aliases": [
+      "pnpm"
+    ],
+    "category": "databases and tools"
+  },
+  "pip": {
+    "aliases": [
+      "pip",
+      "pipenv",
+      "poetry"
+    ],
+    "category": "databases and tools"
+  },
+  "Cargo": {
+    "aliases": [
+      "cargo"
+    ],
+    "category": "databases and tools"
+  },
+  "Go Modules": {
+    "aliases": [
+      "go mod",
+      "go modules"
+    ],
+    "category": "databases and tools"
+  },
+  "NuGet": {
+    "aliases": [
+      "nuget"
+    ],
+    "category": "databases and tools"
+  },
+  "Composer": {
+    "aliases": [
+      "composer"
+    ],
+    "category": "databases and tools"
+  },
+  "Cybersecurity": {
+    "aliases": [
+      "cybersecurity",
+      "information security",
+      "infosec"
+    ],
+    "category": "software"
+  },
+  "OAuth": {
+    "aliases": [
+      "oauth",
+      "oauth 2.0",
+      "oauth2"
+    ],
+    "category": "software"
+  },
+  "OpenID Connect": {
+    "aliases": [
+      "oidc",
+      "openid connect"
+    ],
+    "category": "software"
+  },
+  "JWT": {
+    "aliases": [
+      "json web tokens",
+      "jwt"
+    ],
+    "category": "software"
+  },
+  "SAML": {
+    "aliases": [
+      "saml",
+      "saml 2.0"
+    ],
+    "category": "software"
+  },
+  "Single Sign-On": {
+    "aliases": [
+      "single sign-on",
+      "sso"
+    ],
+    "category": "software"
+  },
+  "Role-Based Access Control": {
+    "aliases": [
+      "rbac",
+      "role-based access control"
+    ],
+    "category": "software"
+  },
+  "Cryptography": {
+    "aliases": [
+      "cryptography",
+      "encryption",
+      "https",
+      "ssl",
+      "tls"
+    ],
+    "category": "software"
+  },
+  "OWASP": {
+    "aliases": [
+      "csrf",
+      "owasp",
+      "owasp top 10",
+      "sql injection",
+      "xss"
+    ],
+    "category": "software"
+  },
+  "Penetration Testing": {
+    "aliases": [
+      "ethical hacking",
+      "pen testing",
+      "penetration testing"
+    ],
+    "category": "software"
+  },
+  "Vulnerability Assessment": {
+    "aliases": [
+      "dast",
+      "sast",
+      "static analysis",
+      "vulnerability assessment"
+    ],
+    "category": "software"
+  },
+  "SOC 2": {
+    "aliases": [
+      "soc 2",
+      "soc2"
+    ],
+    "category": "software"
+  },
+  "HIPAA": {
+    "aliases": [
+      "hipaa"
+    ],
+    "category": "software"
+  },
+  "GDPR": {
+    "aliases": [
+      "gdpr"
+    ],
+    "category": "software"
+  },
+  "PCI DSS": {
+    "aliases": [
+      "pci dss",
+      "pci-dss"
+    ],
+    "category": "software"
+  },
+  "Zero Trust Architecture": {
+    "aliases": [
+      "zero trust",
+      "zero trust architecture"
+    ],
+    "category": "software"
+  },
+  "Android Development": {
+    "aliases": [
+      "android",
+      "android development",
+      "android sdk"
+    ],
+    "category": "software"
+  },
+  "iOS Development": {
+    "aliases": [
+      "ios",
+      "ios development",
+      "ios sdk",
+      "swiftui",
+      "uikit"
+    ],
+    "category": "software"
+  },
+  "Xamarin": {
+    "aliases": [
+      "xamarin"
+    ],
+    "category": "software"
+  },
+  "Embedded Systems": {
+    "aliases": [
+      "embedded c",
+      "embedded systems",
+      "microcontrollers",
+      "rtos"
+    ],
+    "category": "software"
+  },
+  "Arduino": {
+    "aliases": [
+      "arduino"
+    ],
+    "category": "software"
+  },
+  "Raspberry Pi": {
+    "aliases": [
+      "raspberry pi"
+    ],
+    "category": "software"
+  },
+  "IoT": {
+    "aliases": [
+      "internet of things",
+      "iot",
+      "mqtt"
+    ],
+    "category": "software"
+  },
+  "Bluetooth Low Energy": {
+    "aliases": [
+      "ble",
+      "bluetooth low energy"
+    ],
+    "category": "software"
+  },
+  "Kafka Streams": {
+    "aliases": [
+      "kafka streams"
+    ],
+    "category": "databases and tools"
+  },
+  "Kafka Connect": {
+    "aliases": [
+      "kafka connect"
+    ],
+    "category": "databases and tools"
+  },
+  "Spark Streaming": {
+    "aliases": [
+      "spark streaming"
+    ],
+    "category": "data and AI"
+  },
+  "Spark SQL": {
+    "aliases": [
+      "spark sql"
+    ],
+    "category": "data and AI"
+  },
+  "Ray": {
+    "aliases": [
+      "ray",
+      "ray framework"
+    ],
+    "category": "data and AI"
+  },
+  "Dask": {
+    "aliases": [
+      "dask"
+    ],
+    "category": "data and AI"
+  },
+  "Polars": {
+    "aliases": [
+      "polars"
+    ],
+    "category": "data and AI"
+  },
+  "DuckDB": {
+    "aliases": [
+      "duckdb"
+    ],
+    "category": "databases and tools"
+  },
+  "Delta Lake": {
+    "aliases": [
+      "delta lake"
+    ],
+    "category": "data and AI"
+  },
+  "Iceberg": {
+    "aliases": [
+      "apache iceberg",
+      "iceberg"
+    ],
+    "category": "data and AI"
+  },
+  "Hudi": {
+    "aliases": [
+      "apache hudi",
+      "hudi"
+    ],
+    "category": "data and AI"
+  },
+  "Airbyte": {
+    "aliases": [
+      "airbyte"
+    ],
+    "category": "data and AI"
+  },
+  "Fivetran": {
+    "aliases": [
+      "fivetran"
+    ],
+    "category": "data and AI"
+  },
+  "Stitch Data": {
+    "aliases": [
+      "stitch data"
+    ],
+    "category": "data and AI"
+  },
+  "Great Expectations": {
+    "aliases": [
+      "data testing",
+      "great expectations"
+    ],
+    "category": "data and AI"
+  },
+  "Debezium": {
+    "aliases": [
+      "debezium"
+    ],
+    "category": "databases and tools"
+  },
+  "Hasura": {
+    "aliases": [
+      "hasura"
+    ],
+    "category": "web"
+  },
+  "Strapi": {
+    "aliases": [
+      "strapi"
+    ],
+    "category": "web"
+  },
+  "Contentful": {
+    "aliases": [
+      "contentful"
+    ],
+    "category": "web"
+  },
+  "Sanity": {
+    "aliases": [
+      "sanity",
+      "sanity cms"
+    ],
+    "category": "web"
+  },
+  "WordPress": {
+    "aliases": [
+      "wordpress"
+    ],
+    "category": "web"
+  },
+  "Shopify": {
+    "aliases": [
+      "shopify"
+    ],
+    "category": "web"
+  },
+  "Three.js": {
+    "aliases": [
+      "three.js",
+      "threejs",
+      "webgl"
+    ],
+    "category": "web"
+  },
+  "D3.js": {
+    "aliases": [
+      "d3",
+      "d3.js"
+    ],
+    "category": "web"
+  },
+  "Chart.js": {
+    "aliases": [
+      "chart.js"
+    ],
+    "category": "web"
+  },
+  "Highcharts": {
+    "aliases": [
+      "highcharts"
+    ],
+    "category": "web"
+  },
+  "Socket.io": {
+    "aliases": [
+      "socket.io"
+    ],
+    "category": "web"
+  },
+  "SignalR": {
+    "aliases": [
+      "signalr"
+    ],
+    "category": "web"
+  },
+  "Celery": {
+    "aliases": [
+      "celery"
+    ],
+    "category": "software"
+  },
+  "BullMQ": {
+    "aliases": [
+      "bullmq"
+    ],
+    "category": "software"
+  },
+  "Sidekiq": {
+    "aliases": [
+      "sidekiq"
+    ],
+    "category": "software"
+  },
+  "RQ": {
+    "aliases": [
+      "redis queue",
+      "rq"
+    ],
+    "category": "software"
+  },
+  "Temporal": {
+    "aliases": [
+      "temporal",
+      "temporal.io"
+    ],
+    "category": "software"
+  },
+  "Camunda": {
+    "aliases": [
+      "camunda"
+    ],
+    "category": "software"
+  },
+  "Airflow DAGs": {
+    "aliases": [
+      "airflow dags"
+    ],
+    "category": "data and AI"
+  },
+  "SonarQube": {
+    "aliases": [
+      "sonar",
+      "sonarqube"
+    ],
+    "category": "databases and tools"
+  },
+  "Snyk": {
+    "aliases": [
+      "snyk"
+    ],
+    "category": "databases and tools"
+  },
+  "Black Duck": {
+    "aliases": [
+      "black duck"
+    ],
+    "category": "databases and tools"
+  },
+  "Veracode": {
+    "aliases": [
+      "veracode"
+    ],
+    "category": "databases and tools"
+  },
+  "Checkmarx": {
+    "aliases": [
+      "checkmarx"
+    ],
+    "category": "databases and tools"
+  },
+  "Burp Suite": {
+    "aliases": [
+      "burp suite"
+    ],
+    "category": "databases and tools"
+  },
+  "Wireshark": {
+    "aliases": [
+      "wireshark"
+    ],
+    "category": "databases and tools"
+  },
+  "Nmap": {
+    "aliases": [
+      "nmap"
+    ],
+    "category": "databases and tools"
+  },
+  "Metasploit": {
+    "aliases": [
+      "metasploit"
+    ],
+    "category": "databases and tools"
+  },
+  "HashiCorp Vault": {
+    "aliases": [
+      "hashicorp vault",
+      "vault"
+    ],
+    "category": "cloud and devops"
+  },
+  "HashiCorp Consul": {
+    "aliases": [
+      "consul",
+      "hashicorp consul"
+    ],
+    "category": "cloud and devops"
+  },
+  "HashiCorp Nomad": {
+    "aliases": [
+      "hashicorp nomad",
+      "nomad"
+    ],
+    "category": "cloud and devops"
+  },
+  "Istio": {
+    "aliases": [
+      "istio",
+      "service mesh"
+    ],
+    "category": "cloud and devops"
+  },
+  "Linkerd": {
+    "aliases": [
+      "linkerd"
+    ],
+    "category": "cloud and devops"
+  },
+  "Cilium": {
+    "aliases": [
+      "cilium"
+    ],
+    "category": "cloud and devops"
+  },
+  "Calico": {
+    "aliases": [
+      "calico"
+    ],
+    "category": "cloud and devops"
+  },
+  "Knative": {
+    "aliases": [
+      "knative"
+    ],
+    "category": "cloud and devops"
+  },
+  "OpenShift": {
+    "aliases": [
+      "openshift",
+      "red hat openshift"
+    ],
+    "category": "cloud and devops"
+  },
+  "Rancher": {
+    "aliases": [
+      "rancher"
+    ],
+    "category": "cloud and devops"
+  },
+  "K3s": {
+    "aliases": [
+      "k3s"
+    ],
+    "category": "cloud and devops"
+  },
+  "Minikube": {
+    "aliases": [
+      "minikube"
+    ],
+    "category": "cloud and devops"
+  },
+  "Kind": {
+    "aliases": [
+      "kind",
+      "kind kubernetes"
+    ],
+    "category": "cloud and devops"
+  },
+  "Podman": {
+    "aliases": [
+      "podman"
+    ],
+    "category": "cloud and devops"
+  },
+  "Buildah": {
+    "aliases": [
+      "buildah"
+    ],
+    "category": "cloud and devops"
+  },
+  "Skopeo": {
+    "aliases": [
+      "skopeo"
+    ],
+    "category": "cloud and devops"
+  },
+  "LXC": {
+    "aliases": [
+      "lxc",
+      "lxd"
+    ],
+    "category": "cloud and devops"
+  },
+  "KVM": {
+    "aliases": [
+      "kvm"
+    ],
+    "category": "cloud and devops"
+  },
+  "QEMU": {
+    "aliases": [
+      "qemu"
+    ],
+    "category": "cloud and devops"
+  },
+  "Xen": {
+    "aliases": [
+      "xen"
+    ],
+    "category": "cloud and devops"
+  },
+  "Hyper-V": {
+    "aliases": [
+      "hyper-v"
+    ],
+    "category": "cloud and devops"
+  },
+  "Packer": {
+    "aliases": [
+      "hashicorp packer",
+      "packer"
+    ],
+    "category": "cloud and devops"
+  },
+  "Spinnaker": {
+    "aliases": [
+      "spinnaker"
+    ],
+    "category": "cloud and devops"
+  },
+  "Tekton": {
+    "aliases": [
+      "tekton"
+    ],
+    "category": "cloud and devops"
+  },
+  "Concourse CI": {
+    "aliases": [
+      "concourse",
+      "concourse ci"
+    ],
+    "category": "cloud and devops"
+  },
+  "TeamCity": {
+    "aliases": [
+      "teamcity"
+    ],
+    "category": "cloud and devops"
+  },
+  "Bamboo": {
+    "aliases": [
+      "bamboo"
+    ],
+    "category": "cloud and devops"
+  },
+  "Bitrise": {
+    "aliases": [
+      "bitrise"
+    ],
+    "category": "cloud and devops"
+  },
+  "Fastlane": {
+    "aliases": [
+      "fastlane"
+    ],
+    "category": "software"
+  },
+  "Gradle Plugins": {
+    "aliases": [
+      "gradle plugin",
+      "gradle plugins"
+    ],
+    "category": "databases and tools"
+  },
+  "Maven Plugins": {
+    "aliases": [
+      "maven plugin",
+      "maven plugins"
+    ],
+    "category": "databases and tools"
+  },
+  "Ant": {
+    "aliases": [
+      "ant",
+      "apache ant"
+    ],
+    "category": "databases and tools"
+  },
+  "Make": {
+    "aliases": [
+      "gnu make",
+      "make",
+      "makefile"
+    ],
+    "category": "databases and tools"
+  },
+  "CMake": {
+    "aliases": [
+      "cmake"
+    ],
+    "category": "databases and tools"
+  },
+  "Ninja": {
+    "aliases": [
+      "ninja",
+      "ninja build"
+    ],
+    "category": "databases and tools"
+  },
+  "Bazel": {
+    "aliases": [
+      "bazel"
+    ],
+    "category": "databases and tools"
+  },
+  "Buck": {
+    "aliases": [
+      "buck",
+      "buck build"
+    ],
+    "category": "databases and tools"
+  },
+  "Meson": {
+    "aliases": [
+      "meson",
+      "meson build"
+    ],
+    "category": "databases and tools"
+  },
+  "Conan": {
+    "aliases": [
+      "conan",
+      "conan package manager"
+    ],
+    "category": "databases and tools"
+  },
+  "vcpkg": {
+    "aliases": [
+      "vcpkg"
+    ],
+    "category": "databases and tools"
+  },
+  "Yocto": {
+    "aliases": [
+      "bitbake",
+      "yocto",
+      "yocto project"
+    ],
+    "category": "software"
+  },
+  "FreeRTOS": {
+    "aliases": [
+      "freertos"
+    ],
+    "category": "software"
+  },
+  "Zephyr RTOS": {
+    "aliases": [
+      "zephyr rtos"
+    ],
+    "category": "software"
+  },
+  "ROS": {
+    "aliases": [
+      "robot operating system",
+      "ros",
+      "ros2"
+    ],
+    "category": "software"
+  },
+  "AutoSAR": {
+    "aliases": [
+      "autosar"
+    ],
+    "category": "software"
+  },
+  "Simulink": {
+    "aliases": [
+      "simulink"
+    ],
+    "category": "data and AI"
+  },
+  "LabVIEW": {
+    "aliases": [
+      "labview"
+    ],
+    "category": "software"
+  },
+  "CUDA": {
+    "aliases": [
+      "cuda",
+      "gpu programming"
+    ],
+    "category": "data and AI"
+  },
+  "OpenCL": {
+    "aliases": [
+      "opencl"
+    ],
+    "category": "data and AI"
+  },
+  "MPI": {
+    "aliases": [
+      "message passing interface",
+      "mpi"
+    ],
+    "category": "software"
+  },
+  "OpenMP": {
+    "aliases": [
+      "openmp"
+    ],
+    "category": "software"
+  },
+  "Thread Building Blocks": {
+    "aliases": [
+      "intel tbb",
+      "thread building blocks"
+    ],
+    "category": "software"
+  },
+  "HPC": {
+    "aliases": [
+      "high-performance computing",
+      "hpc"
+    ],
+    "category": "software"
+  },
+  "Slurm": {
+    "aliases": [
+      "slurm",
+      "slurm workload manager"
+    ],
+    "category": "software"
+  },
+  "PBS": {
+    "aliases": [
+      "pbs",
+      "pbs pro",
+      "torque pbs"
+    ],
+    "category": "software"
+  },
+  "Kubeflow": {
+    "aliases": [
+      "kubeflow",
+      "kubeflow pipelines"
+    ],
+    "category": "data and AI"
+  },
+  "MLflow": {
+    "aliases": [
+      "mlflow",
+      "mlflow tracking"
+    ],
+    "category": "data and AI"
+  },
+  "DVC": {
+    "aliases": [
+      "data version control",
+      "dvc"
+    ],
+    "category": "data and AI"
+  },
+  "Weights & Biases": {
+    "aliases": [
+      "wandb",
+      "weights & biases",
+      "weights and biases"
+    ],
+    "category": "data and AI"
+  },
+  "Neptune.ai": {
+    "aliases": [
+      "neptune.ai"
+    ],
+    "category": "data and AI"
+  },
+  "Comet.ml": {
+    "aliases": [
+      "comet.ml"
+    ],
+    "category": "data and AI"
+  },
+  "ClearML": {
+    "aliases": [
+      "clearml"
+    ],
+    "category": "data and AI"
+  },
+  "Optuna": {
+    "aliases": [
+      "optuna"
+    ],
+    "category": "data and AI"
+  },
+  "Hyperopt": {
+    "aliases": [
+      "hyperopt"
+    ],
+    "category": "data and AI"
+  },
+  "Ray Tune": {
+    "aliases": [
+      "ray tune"
+    ],
+    "category": "data and AI"
+  },
+  "SHAP": {
+    "aliases": [
+      "shap",
+      "shapley values"
+    ],
+    "category": "data and AI"
+  },
+  "LIME": {
+    "aliases": [
+      "lime",
+      "lime explainability"
+    ],
+    "category": "data and AI"
+  },
+  "Alibi": {
+    "aliases": [
+      "alibi",
+      "alibi explain"
+    ],
+    "category": "data and AI"
+  },
+  "Evidently AI": {
+    "aliases": [
+      "evidently",
+      "evidently ai"
+    ],
+    "category": "data and AI"
+  },
+  "Pandera": {
+    "aliases": [
+      "pandera"
+    ],
+    "category": "data and AI"
+  },
+  "Pydantic": {
+    "aliases": [
+      "pydantic"
+    ],
+    "category": "software"
+  },
+  "Marshmallow": {
+    "aliases": [
+      "marshmallow"
+    ],
+    "category": "software"
+  },
+  "Cerberus": {
+    "aliases": [
+      "cerberus",
+      "cerberus validation"
+    ],
+    "category": "software"
+  },
+  "jsonschema": {
+    "aliases": [
+      "json schema",
+      "jsonschema"
+    ],
+    "category": "software"
+  },
+  "Boto3": {
+    "aliases": [
+      "boto3"
+    ],
+    "category": "cloud and devops"
+  },
+  "Google Cloud SDK": {
+    "aliases": [
+      "gcloud",
+      "google cloud sdk",
+      "google-cloud-python"
+    ],
+    "category": "cloud and devops"
+  },
+  "Azure SDK": {
+    "aliases": [
+      "azure sdk",
+      "azure-sdk-for-python"
+    ],
+    "category": "cloud and devops"
+  },
+  "Kubernetes Client": {
+    "aliases": [
+      "kubernetes client",
+      "kubernetes python client"
+    ],
+    "category": "cloud and devops"
+  },
+  "Terraform Providers": {
+    "aliases": [
+      "terraform provider",
+      "terraform providers"
+    ],
+    "category": "cloud and devops"
+  },
+  "AWS CDK": {
+    "aliases": [
+      "aws cdk",
+      "cloud development kit"
+    ],
+    "category": "cloud and devops"
+  },
+  "Serverless Framework": {
+    "aliases": [
+      "serverless framework"
+    ],
+    "category": "cloud and devops"
+  },
+  "SAM": {
+    "aliases": [
+      "aws sam",
+      "sam"
+    ],
+    "category": "cloud and devops"
+  },
+  "Chalice": {
+    "aliases": [
+      "aws chalice",
+      "chalice"
+    ],
+    "category": "cloud and devops"
+  },
+  "Zappa": {
+    "aliases": [
+      "zappa",
+      "zappa serverless"
+    ],
+    "category": "cloud and devops"
+  },
+  "OpenFaaS": {
+    "aliases": [
+      "openfaas"
+    ],
+    "category": "cloud and devops"
+  },
+  "KEDA": {
+    "aliases": [
+      "keda",
+      "kubernetes event-driven autoscaling"
+    ],
+    "category": "cloud and devops"
+  },
+  "Kyverno": {
+    "aliases": [
+      "kyverno"
+    ],
+    "category": "cloud and devops"
+  },
+  "OPA Gatekeeper": {
+    "aliases": [
+      "gatekeeper",
+      "opa",
+      "opa gatekeeper",
+      "open policy agent"
+    ],
+    "category": "cloud and devops"
+  },
+  "Falco": {
+    "aliases": [
+      "falco"
+    ],
+    "category": "cloud and devops"
+  },
+  "Trivy": {
+    "aliases": [
+      "trivy"
+    ],
+    "category": "cloud and devops"
+  },
+  "Grype": {
+    "aliases": [
+      "grype"
+    ],
+    "category": "cloud and devops"
+  },
+  "Syft": {
+    "aliases": [
+      "syft",
+      "syft sbom"
+    ],
+    "category": "cloud and devops"
+  },
+  "Cosign": {
+    "aliases": [
+      "cosign",
+      "cosign sigstore"
+    ],
+    "category": "cloud and devops"
+  },
+  "Notary": {
+    "aliases": [
+      "notary"
+    ],
+    "category": "cloud and devops"
+  },
+  "Aqua Security": {
+    "aliases": [
+      "aqua security"
+    ],
+    "category": "cloud and devops"
+  },
+  "Prisma Cloud": {
+    "aliases": [
+      "prisma cloud",
+      "twistlock"
+    ],
+    "category": "cloud and devops"
+  },
+  "Sysdig": {
+    "aliases": [
+      "sysdig"
+    ],
+    "category": "cloud and devops"
+  },
+  "LogDNA": {
+    "aliases": [
+      "logdna"
+    ],
+    "category": "cloud and devops"
+  },
+  "Sumo Logic": {
+    "aliases": [
+      "sumo logic"
+    ],
+    "category": "cloud and devops"
+  },
+  "Graylog": {
+    "aliases": [
+      "graylog"
+    ],
+    "category": "cloud and devops"
+  },
+  "Fluentd": {
+    "aliases": [
+      "fluentd"
+    ],
+    "category": "cloud and devops"
+  },
+  "Fluent Bit": {
+    "aliases": [
+      "fluent bit"
+    ],
+    "category": "cloud and devops"
+  },
+  "Vector": {
+    "aliases": [
+      "timber vector",
+      "vector"
+    ],
+    "category": "cloud and devops"
+  },
+  "Telegraf": {
+    "aliases": [
+      "telegraf"
+    ],
+    "category": "cloud and devops"
+  },
+  "VictoriaMetrics": {
+    "aliases": [
+      "victoriametrics"
+    ],
+    "category": "cloud and devops"
+  },
+  "Thanos": {
+    "aliases": [
+      "thanos",
+      "thanos prometheus"
+    ],
+    "category": "cloud and devops"
+  },
+  "Cortex": {
+    "aliases": [
+      "cortex",
+      "cortex metrics"
+    ],
+    "category": "cloud and devops"
+  },
+  "Mimir": {
+    "aliases": [
+      "grafana mimir",
+      "mimir"
+    ],
+    "category": "cloud and devops"
+  },
+  "Loki": {
+    "aliases": [
+      "grafana loki",
+      "loki"
+    ],
+    "category": "cloud and devops"
+  },
+  "Tempo": {
+    "aliases": [
+      "grafana tempo",
+      "tempo"
+    ],
+    "category": "cloud and devops"
+  },
+  "Kiali": {
+    "aliases": [
+      "kiali"
+    ],
+    "category": "cloud and devops"
+  },
+  "Chaos Engineering": {
+    "aliases": [
+      "chaos engineering",
+      "chaos mesh",
+      "gremlin",
+      "litmus"
+    ],
+    "category": "cloud and devops"
+  },
+  "K6": {
+    "aliases": [
+      "k6",
+      "k6 load testing"
+    ],
+    "category": "databases and tools"
+  },
+  "JMeter": {
+    "aliases": [
+      "apache jmeter",
+      "jmeter"
+    ],
+    "category": "databases and tools"
+  },
+  "Gatling": {
+    "aliases": [
+      "gatling"
+    ],
+    "category": "databases and tools"
+  },
+  "Locust": {
+    "aliases": [
+      "locust"
+    ],
+    "category": "databases and tools"
+  },
+  "Artillery": {
+    "aliases": [
+      "artillery",
+      "artillery io"
+    ],
+    "category": "databases and tools"
+  },
+  "Apache Bench": {
+    "aliases": [
+      "ab benchmarking",
+      "apache bench"
+    ],
+    "category": "databases and tools"
+  },
+  "Siege": {
+    "aliases": [
+      "siege",
+      "siege benchmark"
+    ],
+    "category": "databases and tools"
+  },
+  "Puppeteer": {
+    "aliases": [
+      "puppeteer"
+    ],
+    "category": "web"
+  },
+  "Playwright Test": {
+    "aliases": [
+      "playwright runner",
+      "playwright test"
+    ],
+    "category": "databases and tools"
+  },
+  "Appium": {
+    "aliases": [
+      "appium"
+    ],
+    "category": "databases and tools"
+  },
+  "Detox": {
+    "aliases": [
+      "detox",
+      "detox testing"
+    ],
+    "category": "databases and tools"
+  },
+  "Espresso": {
+    "aliases": [
+      "android espresso",
+      "espresso"
+    ],
+    "category": "databases and tools"
+  },
+  "XCUITest": {
+    "aliases": [
+      "xcuitest"
+    ],
+    "category": "databases and tools"
+  },
+  "Robolectric": {
+    "aliases": [
+      "robolectric"
+    ],
+    "category": "databases and tools"
+  },
+  "JaCoCo": {
+    "aliases": [
+      "jacoco",
+      "jacoco code coverage"
+    ],
+    "category": "databases and tools"
+  },
+  "Coverage.py": {
+    "aliases": [
+      "coverage.py"
+    ],
+    "category": "databases and tools"
+  },
+  "Istanbul": {
+    "aliases": [
+      "istanbul",
+      "nyc istanbul"
+    ],
+    "category": "databases and tools"
+  },
+  "SonarLint": {
+    "aliases": [
+      "sonarlint"
+    ],
+    "category": "databases and tools"
+  },
+  "CodeQL": {
+    "aliases": [
+      "codeql"
+    ],
+    "category": "databases and tools"
+  },
+  "Semgrep": {
+    "aliases": [
+      "semgrep"
+    ],
+    "category": "databases and tools"
+  },
+  "Dependabot": {
+    "aliases": [
+      "dependabot"
+    ],
+    "category": "databases and tools"
+  },
+  "Renovate": {
+    "aliases": [
+      "renovate",
+      "renovate bot"
+    ],
+    "category": "databases and tools"
+  }
+}

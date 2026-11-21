@@ -89,12 +89,13 @@ def validate_file_magic_bytes(filename: str, content: bytes) -> str:
 @router.post("", response_model=JobResponse, status_code=status.HTTP_201_CREATED)
 def create_job(payload: JobCreate, db: Session = Depends(get_db)):
     """Create a new job from raw text."""
-    extracted = extract_jd(payload.text)
+    text_content = payload.text or getattr(payload, "raw_text", "") or ""
+    extracted = extract_jd(text_content)
     title = payload.title or extracted.get("title", "Job Position")
     
     job = Job(
         title=title,
-        raw_text=payload.text,
+        raw_text=text_content,
         requirements=extracted,
         required_years=extracted.get("required_years"),
         degree_level=extracted.get("degree_level", 0),

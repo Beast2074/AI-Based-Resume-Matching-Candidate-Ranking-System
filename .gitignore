@@ -1,0 +1,75 @@
+# ==============================================================================
+# AI-Based Resume Matching & Candidate Ranking System - Git Ignore Configuration
+# ==============================================================================
+
+# Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Local Databases & Storage
+*.db
+*.sqlite
+*.sqlite3
+app.db
+backend/app.db
+talentrank.db
+backend/talentrank.db
+
+# Embedding Models & Local Weight Caches
+models/
+backend/models/
+.fastembed/
+.cache/
+
+# Datasets, Sample Files & Large Evaluation Artifacts
+data/
+test_samples/
+eval/parsed_cache.pkl
+eval/test_100_results.json
+eval/real_world_eval_results.json
+eval/__pycache__/
+
+# Logs & Diagnostics
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node / Frontend Build
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Local Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Editor & IDE Directories
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini

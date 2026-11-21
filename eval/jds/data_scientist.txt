@@ -1,0 +1,26 @@
+Job Title: Data Scientist
+Department: Advanced Analytics & AI
+Experience Required: 3-5 years of experience in data science, predictive modeling, or machine learning engineering.
+Education: Master's degree in Data Science, Statistics, Mathematics, Computer Science or related quantitative field.
+
+Requirements (Must Have):
+- Advanced programming skills in Python and standard scientific computing libraries.
+- Solid foundation in Machine Learning algorithms, statistical modeling, and hypothesis testing.
+- Proficient in SQL for data extraction, manipulation, and feature engineering.
+- Deep experience manipulating tabular datasets using Pandas and NumPy.
+- Practical experience training and evaluating models with scikit-learn.
+
+Preferred Qualifications (Nice to Have):
+- Experience developing Deep Learning models with PyTorch or TensorFlow.
+- Natural Language Processing (NLP) text classification and embedding pipelines.
+- Distributed data processing using Apache Spark or PySpark.
+- Workflow orchestration with Apache Airflow.
+- Containerization using Docker for reproducible model deployments.
+- Business intelligence visualization using Tableau or Power BI.
+
+Responsibilities:
+- Design, train, and validate predictive machine learning models to solve business challenges.
+- Perform exploratory data analysis and feature engineering on structured and unstructured datasets.
+- Implement automated ETL and model evaluation pipelines with Airflow.
+- Deploy machine learning inference services in Docker containers.
+- Communicate model metrics and analytical insights to non-technical stakeholders.

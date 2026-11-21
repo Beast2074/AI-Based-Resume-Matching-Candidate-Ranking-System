@@ -1,0 +1,38 @@
+{
+  "weights": {
+    "skills": 0.4,
+    "semantic": 0.25,
+    "experience": 0.25,
+    "education": 0.1
+  },
+  "skill_weights": {
+    "must_have": 1.0,
+    "nice_to_have": 0.5
+  },
+  "skill_credits": {
+    "exact_experience": 1.0,
+    "exact_skills_list": 0.6,
+    "exact_other": 0.6,
+    "partial_semantic_factor": 0.5
+  },
+  "thresholds": {
+    "tau_low": 0.55,
+    "tau_high": 0.8,
+    "relevant_experience_cosine": 0.6
+  },
+  "experience_defaults": {
+    "no_requirement_min_1_yr": 1.0,
+    "no_requirement_less_1_yr": 0.5
+  },
+  "education_credits": {
+    "meets_or_exceeds": 1.0,
+    "one_level_below": 0.5,
+    "below": 0.0,
+    "no_requirement": 1.0
+  },
+  "gate": {
+    "must_have_coverage_threshold": 0.5,
+    "cap_score": 65,
+    "flag_name": "capped_missing_core_skills"
+  }
+}

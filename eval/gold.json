@@ -1,0 +1,635 @@
+{
+  "java_01_strong.pdf": {
+    "id": "java_01_strong",
+    "jd": "java_backend",
+    "name": "Marcus Vance",
+    "tier": 3,
+    "true_skills": [
+      "Java",
+      "Spring Boot",
+      "Microservices",
+      "PostgreSQL",
+      "SQL",
+      "Docker",
+      "Kubernetes",
+      "Kafka",
+      "Redis",
+      "AWS",
+      "Unit Testing",
+      "REST"
+    ],
+    "true_total_years": 6.8,
+    "layout": "single_column_pdf",
+    "degree": "Bachelor of Science in Computer Science",
+    "traps": [
+      "synonym_k8s_postgres",
+      "present_date"
+    ]
+  },
+  "java_02_strong.pdf": {
+    "id": "java_02_strong",
+    "jd": "java_backend",
+    "name": "Elena Rostova",
+    "tier": 3,
+    "true_skills": [
+      "Java",
+      "Spring Boot",
+      "Hibernate",
+      "Microservices",
+      "PostgreSQL",
+      "MySQL",
+      "SQL",
+      "Docker",
+      "AWS",
+      "CI/CD",
+      "Unit Testing",
+      "REST"
+    ],
+    "true_total_years": 6.5,
+    "layout": "two_column_pdf",
+    "degree": "Bachelor of Science in Software Engineering",
+    "traps": [
+      "overlapping_jobs"
+    ]
+  },
+  "java_03_strong.docx": {
+    "id": "java_03_strong",
+    "jd": "java_backend",
+    "name": "David Chen",
+    "tier": 3,
+    "true_skills": [
+      "Java",
+      "Spring Boot",
+      "Microservices",
+      "Kafka",
+      "PostgreSQL",
+      "SQL",
+      "Redis",
+      "Docker",
+      "Kubernetes",
+      "REST",
+      "Unit Testing"
+    ],
+    "true_total_years": 6.9,
+    "layout": "table_docx",
+    "degree": "Bachelor of Science in Computer Science",
+    "traps": [
+      "short_role_under_one_year",
+      "present_date"
+    ]
+  },
+  "java_04_medium.docx": {
+    "id": "java_04_medium",
+    "jd": "java_backend",
+    "name": "Sarah Jenkins",
+    "tier": 2,
+    "true_skills": [
+      "Java",
+      "Spring Boot",
+      "PostgreSQL",
+      "MySQL",
+      "SQL",
+      "REST",
+      "Docker"
+    ],
+    "true_total_years": 4.5,
+    "layout": "plain_docx",
+    "degree": "Bachelor of Arts in Information Technology",
+    "traps": [
+      "career_gap"
+    ]
+  },
+  "java_05_medium.pdf": {
+    "id": "java_05_medium",
+    "jd": "java_backend",
+    "name": "Brian O'Connor",
+    "tier": 2,
+    "true_skills": [
+      "Java",
+      "Spring Boot",
+      "Microservices",
+      "PostgreSQL",
+      "SQL",
+      "Docker",
+      "REST"
+    ],
+    "true_total_years": 3.6,
+    "layout": "single_column_pdf",
+    "degree": "Bachelor of Science in Computer Science",
+    "traps": []
+  },
+  "java_06_medium.pdf": {
+    "id": "java_06_medium",
+    "jd": "java_backend",
+    "name": "Kavita Patel",
+    "tier": 2,
+    "true_skills": [
+      "Java",
+      "C++",
+      "PostgreSQL",
+      "SQL",
+      "REST",
+      "Docker",
+      "Git"
+    ],
+    "true_total_years": 3.5,
+    "layout": "two_column_pdf",
+    "degree": "Bachelor of Science in Electrical Engineering",
+    "traps": []
+  },
+  "java_07_weak.docx": {
+    "id": "java_07_weak",
+    "jd": "java_backend",
+    "name": "Tyler Brooks",
+    "tier": 1,
+    "true_skills": [
+      "Java",
+      "SQL",
+      "Git"
+    ],
+    "true_total_years": 1.2,
+    "layout": "table_docx",
+    "degree": "Associate Degree in Computer Programming",
+    "traps": [
+      "short_experience"
+    ]
+  },
+  "java_08_weak.docx": {
+    "id": "java_08_weak",
+    "jd": "java_backend",
+    "name": "Jason Miller",
+    "tier": 1,
+    "true_skills": [
+      "JavaScript",
+      "Node.js",
+      "MongoDB",
+      "REST",
+      "Docker",
+      "HTML",
+      "CSS"
+    ],
+    "true_total_years": 3.1,
+    "layout": "plain_docx",
+    "degree": "Bachelor of Arts in Web Design",
+    "traps": [
+      "java_vs_javascript_trap"
+    ]
+  },
+  "java_09_irrelevant.pdf": {
+    "id": "java_09_irrelevant",
+    "jd": "java_backend",
+    "name": "Chloe Adams",
+    "tier": 0,
+    "true_skills": [
+      "Agile"
+    ],
+    "true_total_years": 4.6,
+    "layout": "single_column_pdf",
+    "degree": "Bachelor of Science in Marketing",
+    "traps": [
+      "completely_irrelevant"
+    ]
+  },
+  "java_10_keyword_stuffed.pdf": {
+    "id": "java_10_keyword_stuffed",
+    "jd": "java_backend",
+    "name": "Arthur Pendelton",
+    "tier": 1,
+    "true_skills": [
+      "Java",
+      "Spring Boot",
+      "Microservices",
+      "Hibernate",
+      "PostgreSQL",
+      "SQL",
+      "Docker",
+      "Kubernetes",
+      "Kafka",
+      "Redis",
+      "AWS",
+      "CI/CD",
+      "Unit Testing",
+      "REST"
+    ],
+    "true_total_years": 3.1,
+    "layout": "two_column_pdf",
+    "degree": "High School Diploma",
+    "traps": [
+      "keyword_stuffed_skills_dump"
+    ]
+  },
+  "ds_01_strong.docx": {
+    "id": "ds_01_strong",
+    "jd": "data_scientist",
+    "name": "Dr. Aris Thorne",
+    "tier": 3,
+    "true_skills": [
+      "Python",
+      "Machine Learning",
+      "Deep Learning",
+      "NLP",
+      "PyTorch",
+      "scikit-learn",
+      "Pandas",
+      "NumPy",
+      "SQL",
+      "Airflow",
+      "Docker",
+      "Tableau"
+    ],
+    "true_total_years": 6.9,
+    "layout": "table_docx",
+    "degree": "PhD in Computer Science & Applied Statistics",
+    "traps": [
+      "present_date"
+    ]
+  },
+  "ds_02_strong.docx": {
+    "id": "ds_02_strong",
+    "jd": "data_scientist",
+    "name": "Maya Lin",
+    "tier": 3,
+    "true_skills": [
+      "Python",
+      "Machine Learning",
+      "Deep Learning",
+      "NLP",
+      "PyTorch",
+      "scikit-learn",
+      "Pandas",
+      "NumPy",
+      "SQL",
+      "Spark"
+    ],
+    "true_total_years": 5.9,
+    "layout": "plain_docx",
+    "degree": "Master of Science in Data Science",
+    "traps": [
+      "overlapping_jobs"
+    ]
+  },
+  "ds_03_strong.pdf": {
+    "id": "ds_03_strong",
+    "jd": "data_scientist",
+    "name": "Julian Weber",
+    "tier": 3,
+    "true_skills": [
+      "Python",
+      "Machine Learning",
+      "TensorFlow",
+      "scikit-learn",
+      "Pandas",
+      "NumPy",
+      "SQL",
+      "Airflow",
+      "Docker",
+      "Power BI"
+    ],
+    "true_total_years": 5.1,
+    "layout": "single_column_pdf",
+    "degree": "Master of Science in Statistics",
+    "traps": []
+  },
+  "ds_04_medium.pdf": {
+    "id": "ds_04_medium",
+    "jd": "data_scientist",
+    "name": "Carlos Gomez",
+    "tier": 2,
+    "true_skills": [
+      "Python",
+      "Machine Learning",
+      "scikit-learn",
+      "Pandas",
+      "NumPy",
+      "SQL",
+      "MySQL"
+    ],
+    "true_total_years": 3.0,
+    "layout": "two_column_pdf",
+    "degree": "Bachelor of Science in Mathematics",
+    "traps": []
+  },
+  "ds_05_medium.docx": {
+    "id": "ds_05_medium",
+    "jd": "data_scientist",
+    "name": "Hannah Abbott",
+    "tier": 2,
+    "true_skills": [
+      "Python",
+      "Machine Learning",
+      "scikit-learn",
+      "Pandas",
+      "NumPy",
+      "SQL",
+      "Power BI"
+    ],
+    "true_total_years": 3.2,
+    "layout": "table_docx",
+    "degree": "Master of Science in Business Analytics",
+    "traps": [
+      "career_gap"
+    ]
+  },
+  "ds_06_medium.docx": {
+    "id": "ds_06_medium",
+    "jd": "data_scientist",
+    "name": "Nikhil Rao",
+    "tier": 2,
+    "true_skills": [
+      "Python",
+      "Machine Learning",
+      "scikit-learn",
+      "Pandas",
+      "SQL",
+      "Airflow"
+    ],
+    "true_total_years": 3.2,
+    "layout": "plain_docx",
+    "degree": "Bachelor of Science in Computer Science",
+    "traps": [
+      "short_role_under_one_year"
+    ]
+  },
+  "ds_07_weak.pdf": {
+    "id": "ds_07_weak",
+    "jd": "data_scientist",
+    "name": "Emily Watson",
+    "tier": 1,
+    "true_skills": [
+      "Tableau",
+      "Power BI",
+      "SQL"
+    ],
+    "true_total_years": 2.5,
+    "layout": "single_column_pdf",
+    "degree": "Bachelor of Arts in Economics",
+    "traps": []
+  },
+  "ds_08_weak.pdf": {
+    "id": "ds_08_weak",
+    "jd": "data_scientist",
+    "name": "Tom Bradley",
+    "tier": 1,
+    "true_skills": [
+      "Python",
+      "Flask",
+      "HTML",
+      "CSS",
+      "MySQL",
+      "SQL"
+    ],
+    "true_total_years": 1.7,
+    "layout": "two_column_pdf",
+    "degree": "Associate Degree in Web Development",
+    "traps": []
+  },
+  "ds_09_irrelevant.docx": {
+    "id": "ds_09_irrelevant",
+    "jd": "data_scientist",
+    "name": "Jessica Taylor",
+    "tier": 0,
+    "true_skills": [],
+    "true_total_years": 5.0,
+    "layout": "table_docx",
+    "degree": "Bachelor of Fine Arts",
+    "traps": [
+      "completely_irrelevant"
+    ]
+  },
+  "ds_10_keyword_stuffed.docx": {
+    "id": "ds_10_keyword_stuffed",
+    "jd": "data_scientist",
+    "name": "Robert Vance",
+    "tier": 1,
+    "true_skills": [
+      "Python",
+      "Machine Learning",
+      "Deep Learning",
+      "NLP",
+      "PyTorch",
+      "TensorFlow",
+      "scikit-learn",
+      "Pandas",
+      "NumPy",
+      "SQL",
+      "Spark",
+      "Airflow",
+      "Docker",
+      "Tableau"
+    ],
+    "true_total_years": 3.2,
+    "layout": "plain_docx",
+    "degree": "High School Diploma",
+    "traps": [
+      "keyword_stuffed_skills_dump"
+    ]
+  },
+  "fe_01_strong.pdf": {
+    "id": "fe_01_strong",
+    "jd": "frontend_react",
+    "name": "Liam Gallagher",
+    "tier": 3,
+    "true_skills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Redux",
+      "Tailwind CSS",
+      "HTML",
+      "CSS",
+      "GraphQL",
+      "REST",
+      "Git",
+      "Unit Testing"
+    ],
+    "true_total_years": 6.9,
+    "layout": "single_column_pdf",
+    "degree": "Bachelor of Science in Computer Science",
+    "traps": [
+      "present_date"
+    ]
+  },
+  "fe_02_strong.pdf": {
+    "id": "fe_02_strong",
+    "jd": "frontend_react",
+    "name": "Amina Al-Mansoor",
+    "tier": 3,
+    "true_skills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Tailwind CSS",
+      "Redux",
+      "Next.js",
+      "GraphQL",
+      "HTML",
+      "CSS",
+      "REST",
+      "Git",
+      "Unit Testing"
+    ],
+    "true_total_years": 6.1,
+    "layout": "two_column_pdf",
+    "degree": "Bachelor of Science in Software Engineering",
+    "traps": [
+      "overlapping_jobs"
+    ]
+  },
+  "fe_03_strong.docx": {
+    "id": "fe_03_strong",
+    "jd": "frontend_react",
+    "name": "Zachary Taylor",
+    "tier": 3,
+    "true_skills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Tailwind CSS",
+      "Redux",
+      "Node.js",
+      "HTML",
+      "CSS",
+      "REST",
+      "Git"
+    ],
+    "true_total_years": 5.0,
+    "layout": "table_docx",
+    "degree": "Bachelor of Science in Computer Science",
+    "traps": []
+  },
+  "fe_04_medium.docx": {
+    "id": "fe_04_medium",
+    "jd": "frontend_react",
+    "name": "Megan Foster",
+    "tier": 2,
+    "true_skills": [
+      "JavaScript",
+      "React",
+      "HTML",
+      "CSS",
+      "REST",
+      "Git"
+    ],
+    "true_total_years": 3.1,
+    "layout": "plain_docx",
+    "degree": "Bachelor of Arts in Media Arts & Science",
+    "traps": []
+  },
+  "fe_05_medium.pdf": {
+    "id": "fe_05_medium",
+    "jd": "frontend_react",
+    "name": "Oliver Quinn",
+    "tier": 2,
+    "true_skills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Tailwind CSS",
+      "HTML",
+      "CSS",
+      "REST"
+    ],
+    "true_total_years": 3.2,
+    "layout": "single_column_pdf",
+    "degree": "Bachelor of Science in Information Systems",
+    "traps": [
+      "career_gap"
+    ]
+  },
+  "fe_06_medium.pdf": {
+    "id": "fe_06_medium",
+    "jd": "frontend_react",
+    "name": "Danielle Morgan",
+    "tier": 2,
+    "true_skills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Tailwind CSS",
+      "HTML",
+      "CSS",
+      "Git"
+    ],
+    "true_total_years": 3.5,
+    "layout": "two_column_pdf",
+    "degree": "Bachelor of Science in Computer Science",
+    "traps": [
+      "short_role_under_one_year"
+    ]
+  },
+  "fe_07_weak.docx": {
+    "id": "fe_07_weak",
+    "jd": "frontend_react",
+    "name": "Kelsey Stewart",
+    "tier": 1,
+    "true_skills": [
+      "JavaScript",
+      "Angular",
+      "Vue",
+      "HTML",
+      "CSS",
+      "REST"
+    ],
+    "true_total_years": 2.5,
+    "layout": "table_docx",
+    "degree": "Bachelor of Science in Software Engineering",
+    "traps": []
+  },
+  "fe_08_weak.docx": {
+    "id": "fe_08_weak",
+    "jd": "frontend_react",
+    "name": "Brandon Cole",
+    "tier": 1,
+    "true_skills": [
+      "HTML",
+      "CSS"
+    ],
+    "true_total_years": 0.6,
+    "layout": "plain_docx",
+    "degree": "High School Diploma",
+    "traps": [
+      "short_experience"
+    ]
+  },
+  "fe_09_irrelevant.pdf": {
+    "id": "fe_09_irrelevant",
+    "jd": "frontend_react",
+    "name": "Patricia Morales",
+    "tier": 0,
+    "true_skills": [],
+    "true_total_years": 5.5,
+    "layout": "single_column_pdf",
+    "degree": "Bachelor of Business Administration in Accounting",
+    "traps": [
+      "completely_irrelevant"
+    ]
+  },
+  "fe_10_keyword_stuffed.pdf": {
+    "id": "fe_10_keyword_stuffed",
+    "jd": "frontend_react",
+    "name": "Gary Higgins",
+    "tier": 1,
+    "true_skills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Redux",
+      "Tailwind CSS",
+      "HTML",
+      "CSS",
+      "GraphQL",
+      "REST",
+      "Git",
+      "Unit Testing",
+      "Node.js"
+    ],
+    "true_total_years": 3.1,
+    "layout": "two_column_pdf",
+    "degree": "High School Diploma",
+    "traps": [
+      "keyword_stuffed_skills_dump"
+    ]
+  }
+}

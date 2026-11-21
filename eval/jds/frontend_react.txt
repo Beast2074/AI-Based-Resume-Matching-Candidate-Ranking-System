@@ -1,0 +1,25 @@
+Job Title: Senior Frontend React Engineer
+Department: Product Engineering
+Experience Required: 3-5 years of professional frontend web development experience.
+Education: Bachelor's degree in Computer Science, Software Engineering, or related technical field.
+
+Requirements (Must Have):
+- Expert-level JavaScript (ES6+) and TypeScript knowledge.
+- In-depth production experience building Single Page Applications (SPAs) with React.
+- Strong mastery of HTML5, CSS3, responsive layout principles, and modern CSS frameworks like Tailwind CSS.
+- Production state management experience with Redux, Redux Toolkit, or Zustand.
+- Solid understanding of RESTful API consumption and asynchronous browser patterns.
+
+Preferred Qualifications (Nice to Have):
+- Server-side rendering (SSR) frameworks such as Next.js.
+- GraphQL querying and Apollo Client integration.
+- Backend basics with Node.js and Express.
+- Version control proficiency with Git and GitHub collaborative workflows.
+- Comprehensive Unit Testing using Jest, Vitest, and React Testing Library.
+
+Responsibilities:
+- Build responsive, accessible, and high-performance user interfaces using React, TypeScript, and Tailwind CSS.
+- Architect complex application state flows and side-effect handling using Redux Toolkit.
+- Integrate frontend client interfaces with backend REST and GraphQL endpoints.
+- Maintain test coverage across components with automated unit and integration tests.
+- Participate in code reviews and optimize bundle sizes and browser rendering performance.

@@ -1,0 +1,25 @@
+Job Title: Senior Java Backend Engineer
+Department: Core Infrastructure Engineering
+Experience Required: 4-6 years of experience in backend software engineering.
+Education: Bachelor's degree in Computer Science, Software Engineering, or equivalent.
+
+Requirements (Must Have):
+- Strong proficiency in Java (Java 17/21) and modern object-oriented programming.
+- Hands-on expertise building enterprise microservices using Spring Boot and Hibernate.
+- Proficient in SQL and relational database design, specifically PostgreSQL and MySQL.
+- Experience building and consuming REST APIs with robust error handling and authentication.
+- Solid containerization skills with Docker.
+
+Preferred Qualifications (Nice to Have):
+- Experience orchestrating containers with Kubernetes (k8s).
+- Event streaming architectures with Kafka or RabbitMQ.
+- Caching solutions using Redis.
+- Cloud platforms (AWS: EC2, S3, RDS).
+- Automated CI/CD pipelines and comprehensive Unit Testing with JUnit and Mockito.
+
+Responsibilities:
+- Architect, build, and maintain scalable RESTful microservices using Java and Spring Boot.
+- Optimize database queries and schema migrations in PostgreSQL.
+- Containerize backend microservices and maintain deployment configurations.
+- Implement event-driven asynchronous processing using Apache Kafka.
+- Collaborate with frontend engineers to integrate RESTful endpoints.

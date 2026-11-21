@@ -16,8 +16,11 @@ from app.routers import jobs, candidates, admin
 from app.services.scoring import load_scoring_config
 from app.services.logger import record_log
 
-# Ensure database tables exist immediately upon startup/import
-init_db()
+# Ensure database tables exist immediately upon startup/import safely
+try:
+    init_db()
+except Exception as e:
+    record_log("SYSTEM", "WARNING", f"Initial DB init: {e}")
 
 
 @asynccontextmanager

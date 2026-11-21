@@ -3,20 +3,30 @@ from pathlib import Path
 from typing import List
 import numpy as np
 
-# Enforce offline model loading
-os.environ["HF_HUB_OFFLINE"] = "1"
-os.environ["HF_HUB_DISABLE_SYMLINKS_WARNING"] = "1"
-
 _embedder_instance = None
 
 def get_models_dir() -> Path:
-    # Points to backend/models
-    return Path(__file__).resolve().parent.parent.parent / "models"
+    local_dir = Path(__file__).resolve().parent.parent.parent / "models"
+    if local_dir.exists() and any(local_dir.iterdir()):
+        return local_dir
+    # Fallback to /tmp for serverless runtime (e.g. Vercel)
+    tmp_dir = Path("/tmp/fastembed_models")
+    tmp_dir.mkdir(parents=True, exist_ok=True)
+    return tmp_dir
 
 class Embedder:
     def __init__(self, cache_dir: str | None = None):
         if cache_dir is None:
             cache_dir = str(get_models_dir())
+        
+        # Only enforce offline if the model actually exists on disk
+        if Path(cache_dir).exists() and any(Path(cache_dir).rglob("*.onnx")):
+            os.environ["HF_HUB_OFFLINE"] = "1"
+        else:
+            os.environ.pop("HF_HUB_OFFLINE", None)
+            
+        os.environ["HF_HUB_DISABLE_SYMLINKS_WARNING"] = "1"
+        
         from fastembed import TextEmbedding
         self.model = TextEmbedding(
             model_name="BAAI/bge-small-en-v1.5",

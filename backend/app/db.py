@@ -10,8 +10,12 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import declarative_base, sessionmaker, Session
 from sqlalchemy.pool import NullPool
 
-# Determine database URL: default to SQLite in backend directory
-DEFAULT_SQLITE_PATH = Path(__file__).resolve().parent.parent / "app.db"
+# Determine database URL: default to SQLite in /tmp for serverless or backend directory locally
+if os.getenv("VERCEL") or os.getenv("AWS_LAMBDA_FUNCTION_NAME"):
+    DEFAULT_SQLITE_PATH = Path("/tmp/app.db")
+else:
+    DEFAULT_SQLITE_PATH = Path(__file__).resolve().parent.parent / "app.db"
+
 DATABASE_URL = os.getenv("DATABASE_URL", f"sqlite:///{DEFAULT_SQLITE_PATH}")
 
 connect_args = {}
